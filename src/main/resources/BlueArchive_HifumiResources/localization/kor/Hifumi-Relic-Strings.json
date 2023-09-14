@@ -1,0 +1,170 @@
+{
+  "BlueArchive_Hifumi:HifumiBaseRelic": {
+    "NAME": "수집가의 투지",
+    "FLAVOR": "\"...고민이요? 저는 그, 다른 사람에 비해 너무 평범한 것 같지 않나요...?\"",
+    "DESCRIPTIONS": [
+      "첫번째 전투가 시작할때 일반등급 #ybluearchive_hifumi:페로로굿즈를 하나 선택하여 얻습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:HifumiBaseRelicPlus": {
+    "NAME": "수집가의 투지+",
+    "FLAVOR": "\"페로로님이 나설 차례에요!\"",
+    "DESCRIPTIONS": [
+      "#r수집가의 #r투지 와 교체됩니다. 첨탑을 #b",
+      " 층 등반할때마다 무작위 일반등급 #ybluearchive_hifumi:페로로굿즈를 얻습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:ReisaRelic": {
+    "NAME": "레이사의 도전장",
+    "FLAVOR": "\"도전장을! 받아! 주세요!\"",
+    "DESCRIPTIONS": [
+      "매 턴 시작 시 에너지를 1 추가로 얻습니다. 획득시 덱의 #ybluearchive_hifumi:친구 카드를 모두 제거합니다. 더 이상 #ybluearchive_hifumi:친구 카드를 얻을 수 없습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:MomoFreiendsSpecialTeapotRelic": {
+    "NAME": "모모프렌즈 스페셜 티포트",
+    "FLAVOR": "탱크를 타고 온 바다의 필수품이라며 히후미가 챙겨온 티포트.",
+    "DESCRIPTIONS": [
+      "획득시 모든 #y타격과 #y수비가 #ybluearchive_hifumi:포격을 포함한 #y2파운더 #y고폭탄과 #y40mm #y대공포로 #b변화합니다. #y강화를 유지합니다.",
+      "이 카드들을 얻습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:CommonPeroroBlockRelic": {
+    "NAME": "페로로 백팩",
+    "FLAVOR": "수납공간이 넓어 페로로 매니아가 아닌 사람들에게도 큰 인기를 끌고 있습니다.",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:페로로굿즈. 사용시 #y방어도를 #g",
+      " ( 중첩당 #g+",
+      " ) 얻습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:CommonPeroroMultiDamageRelic": {
+    "NAME": "페로로 오븐 장갑",
+    "FLAVOR": "이 오븐 장갑을 끼면 갑자기 괴상한 댄스를 추고 싶은 욕망에 휩싸이게 된다는 소문이 있습니다.",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:페로로굿즈. 사용시 적 전체에 피해를 #g",
+      " ( 중첩당 #g+",
+      " ) 줍니다."
+    ]
+  },
+  "BlueArchive_Hifumi:CommonPeroroDamageRelic": {
+    "NAME": "페로로 깃털",
+    "FLAVOR": "깃털의 출처는 모모 프렌즈의 중대한 영업 기밀입니다.",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:페로로굿즈. 사용시 가장 체력이 낮은 적에게 피해를 #g",
+      " ( 중첩당 #g+",
+      " ) 줍니다."
+    ]
+  },
+  "BlueArchive_Hifumi:UncommonPeroroBlockRelic": {
+    "NAME": "페로로 홀로그램",
+    "FLAVOR": "페로로님의 홀로그램을 송출하는 장치입니다. 왠지 보고있자면 화가 나네요.",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:페로로굿즈. 사용시 턴이 끝날때마다 #y방어도를 #g",
+      " ( 중첩당 #g+",
+      " ) 얻는 #y소환물을 소환합니다. 동일한 #y소환물이 이미 있으면 중첩이 #g1 증가합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:UncommonPeroroSpecialRelic": {
+    "NAME": "페로로 쿠션",
+    "FLAVOR": "특히 날개쪽이 푹신합니다.",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:페로로굿즈. 사용시 카드를 #g",
+      " ( 중첩당 #g+",
+      " ) 장 뽑습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:UncommonPeroroDamageRelic": {
+    "NAME": "페로로 사우르스",
+    "FLAVOR": "\"Peloro\"가 아니에요, \"Peroro\"에요.",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:페로로굿즈. 사용시 무작위 적에게 피해를 #g",
+      " 줍니다. 사용할때 마다 이번 전투 동안 피해량이 #g",
+      " ( 중첩당 #g+",
+      " ) 증가합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:RarePeroroBlockRelic": {
+    "NAME": "닌페로",
+    "FLAVOR": "백귀야행에서 판매하는 닌자 페로로 굿즈입니다.",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:페로로굿즈. 사용시 #y불가침을 #g",
+      " 얻고 이번 전투동안 중첩이 #r1 감소합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:RarePeroroEnergyRelic": {
+    "NAME": "페로로박사",
+    "FLAVOR": "공부를 너무 많이 해서 살짝 맛이 간 페로로.",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:페로로굿즈. 사용시",
+      " [E]",
+      " ( 중첩당 추가 [E] ) 를 얻습니다. "
+    ]
+  },
+  "BlueArchive_Hifumi:RarePeroroDamageRelic": {
+    "NAME": "페로로지라",
+    "FLAVOR": "\"정체를 드러냈구나, 인류의 배신자!\"",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:페로로굿즈. 사용시 턴이 끝날때마다 적 전체에 피해를 #g",
+      "  ( 중첩당 #g+",
+      " ) 주는 #y소환물을 소환합니다. 동일한 #y소환물이 이미 있으면 중첩이 #g1 증가합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:BottledPeroro": {
+    "NAME": "병 속의 페로로",
+    "FLAVOR": "장인이 병 안에서 조심스럽게 페로로 피규어를 조립해놓은 한정 제작품입니다.",
+    "DESCRIPTIONS": [
+      "획득시 카드 하나 선택합니다. 전투 시작시 선택한 카드의 복사본을 버린 카드 더미에 넣습니다.",
+      "전투 시작시 ",
+      " 카드의 복사본을 버린 카드 더미에 넣습니다.",
+      "",
+      " : 전투 시작시 복사될 카드를 선택합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroMembershipCardRelic": {
+    "NAME": "페로로 VIP 카드",
+    "FLAVOR": "항상 페로로 굿즈를 구매해주시는 VIP 회원을 위한 카드입니다.",
+    "DESCRIPTIONS": [
+      "페로로 상점에서의 일반 가챠 비용이 #b",
+      " #y골드로 고정됩니다."
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroCoverRelic": {
+    "NAME": "페로로 폰 커버",
+    "FLAVOR": "모모 프렌즈의 마스코트인 페로로님의 얼굴이 새겨진 스마트폰 커버입니다.",
+    "DESCRIPTIONS": [
+      "전투 시작시 #ybluearchive_hifumi:후천성 카드 수 만큼 #ybluearchive_hifumi:임시 #y체력을 얻습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:DangerousSwimsuitRelic": {
+    "NAME": "아슬아슬 수영복",
+    "FLAVOR": "\"좀 더... 좀 더, 눈에 띄는 수영복을 찾지 않으면...\" - 히후미",
+    "DESCRIPTIONS": [
+      "2번째 턴 시작시 #ybluearchive_hifumi:수집 #b",
+      " 를 합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:UnidentifiedBagRelic": {
+    "NAME": "정체불명의 가방",
+    "FLAVOR": "게헨나의 누군가에게 임시로 맡아둔 가방.",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:매설이 부여된 카드의 피해량과 #y방어도가 #b",
+      " 증가합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:FigureStorageRelic": {
+    "NAME": "피규어 보관함",
+    "FLAVOR": "피규어를 새 것처럼 보관하기위한 필수품입니다.",
+    "DESCRIPTIONS": [
+      "전투 시작시 보유한 무작위 #ybluearchive_hifumi:페로로굿즈 하나의 중첩이 이번 전투동안 #b",
+      " 증가합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:TwinPeroroRelic": {
+    "NAME": "트윈 헤드 페로로",
+    "FLAVOR": "페로로 드래곤 2마리를 융합하여 만들어졌다고합니다.",
+    "DESCRIPTIONS": [
+      "#ybluearchive_hifumi:페로로굿즈. 다른 사용가능한 #ybluearchive_hifumi:페로로굿즈가 #g3 종류 이상일때만 사용할 수 있습니다. 사용시 다른 무작위 #ybluearchive_hifumi:페로로굿즈 #g2 개를 사용합니다."
+    ]
+  }
+}

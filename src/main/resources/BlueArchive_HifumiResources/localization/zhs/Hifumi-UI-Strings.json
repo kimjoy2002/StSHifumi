@@ -1,0 +1,79 @@
+{
+  "BlueArchive_Hifumi:CollectSelectAction": {
+    "TEXT": [
+      "Select the cards you want to collect."
+    ]
+  },
+  "BlueArchive_Hifumi:TimeBoxAction": {
+    "TEXT": [
+      "Select a card to return to the draw pile."
+    ]
+  },
+  "BlueArchive_Hifumi:LabelingAction": {
+    "TEXT": [
+      "Select a card to send at the bottom of the discard pile."
+    ]
+  },
+  "BlueArchive_Hifumi:SpadeworkAction": {
+    "TEXT": [
+      "Select a card to grant Buried.",
+      "BlueArchive_Hifumi:Buried",
+      "Select a card to grant Uncollectible and Buried.",
+      "BlueArchive_Hifumi:Uncollectible"
+    ]
+  },
+  "BlueArchive_Hifumi:SecondhandTradeAction": {
+    "TEXT": [
+      "Choose which card to discard by granting Buried.",
+      "Choose which ",
+      " cards to discard by granting Buried."
+    ]
+  },
+  "BlueArchive_Hifumi:AddLearnedAction": {
+    "TEXT": [
+      "Give Grave",
+      "BlueArchive_Hifumi:Grave",
+      "Select the card you want to give Grave to."
+    ]
+  },
+  "BlueArchive_Hifumi:CopyDiscardAction": {
+    "TEXT": [
+      "Select the card you want to duplicate."
+    ]
+  },
+  "BlueArchive_Hifumi:GachaPon": {
+    "TEXT": [
+      "PeroroGoods Gacha",
+      "Obtain #b1 random #yPeroroGoods of #yCommon rarity. The cost of gacha increases by #b",
+      " for the this shop.",
+      "Obtain #b2 random #yPeroroGoods of #yCommon rarity.",
+      "Obtain #b1 random #yPeroroGoods of #yRare rarity."
+    ]
+  },
+  "BlueArchive_Hifumi:OurStoryAction": {
+    "TEXT": [
+      "Choose a card to add into your hand."
+    ]
+  },
+  "BlueArchive_Hifumi:CannonModifier": {
+    "TEXT": [
+      "BlueArchive_Hifumi:Artillery"
+    ]
+  },
+  "BlueArchive_Hifumi:ItazuraAction": {
+    "TEXT": [
+      "Choose which cards to send to the discard pile."
+    ]
+  },
+  "BlueArchive_Hifumi:EvoveAttackAction": {
+    "TEXT": [
+      "Evove!",
+      "Choose the direction of evolution."
+    ]
+  },
+  "BlueArchive_Hifumi:CarWashAction": {
+    "TEXT": [
+      "Select a card."
+    ]
+  }
+}

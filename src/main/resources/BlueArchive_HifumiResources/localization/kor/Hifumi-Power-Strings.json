@@ -1,0 +1,110 @@
+{
+  "BlueArchive_Hifumi:MineExpertPower": {
+    "NAME": "크루세이더 쨩 부탁해요",
+    "DESCRIPTIONS": [
+      "#y포격 카드의 피해량과 #y방어도가 #b",
+      " 증가합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:PassionateCollector": {
+    "NAME": "열성적인 수집가",
+    "DESCRIPTIONS": [
+      "#y수집할 때마다 #y방어도를 #b",
+      " 얻습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:LabelingPower": {
+    "NAME": "이름 붙이기",
+    "DESCRIPTIONS": [
+      "턴이 시작할때 버린 카드 더미에서 #b",
+      " 장까지 선택하여 버린 카드 더미 맨 밑에 둡니다.",
+      " 장까지 선택하여 버린 카드 더미 맨 밑에 둡니다."
+    ]
+  },
+  "BlueArchive_Hifumi:BetrayerPower": {
+    "NAME": "파우스트의 형상",
+    "DESCRIPTIONS": [
+      "턴이 시작할때 버린 카드 더미에 있는 카드 #b",
+      " 장은 사용하기 전까지 비용이 0이 됩니다."
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroHologramPower": {
+    "NAME": "페로로 홀로그램",
+    "DESCRIPTIONS": [
+      "턴이 끝날때 #y방어도를 #b",
+      " 얻습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:PerorodzillaPower": {
+    "NAME": "페로로지라",
+    "DESCRIPTIONS": [
+      "턴이 끝날때 적 전체에 피해를 #r",
+      " 줍니다."
+    ]
+  },
+  "BlueArchive_Hifumi:MomoFriendPower": {
+    "NAME": "모모프렌즈",
+    "DESCRIPTIONS": [
+      "턴이 시작할때 ",
+      " #y페로로굿즈의 효과를 사용합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:IncineratorPower": {
+    "NAME": "소각로",
+    "DESCRIPTIONS": [
+       "턴이 끝날때 버린 카드 더미에 놓여진 상태이상, 저주 하나당 #b",
+       " 만큼 적 전체에 피해를 줍니다."
+    ]
+  },
+  "BlueArchive_Hifumi:AdeliesPower": {
+    "NAME": "앵그리 아델리 씨의 가호",
+    "DESCRIPTIONS": [
+      "카드로 주는 피해량이 #b",
+      " 만큼 버린 카드 더미 #b",
+      " 장당 증가합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroBombPower": {
+    "NAME": "감춰진 폭탄",
+    "DESCRIPTIONS": [
+      "죽을때 모든 적에게 피해를 #r",
+      " 줍니다."
+    ]
+  },
+  "BlueArchive_Hifumi:Constricted": {
+    "NAME": "포박",
+    "DESCRIPTIONS": [
+      "턴 시작시 #b",
+      " 의 피해를 받습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:HifumiDaisukiPower": {
+    "NAME": "히후미 다이스키",
+    "DESCRIPTIONS": [
+      "카드가 버린 카드 더미로 보내질때마다 #y방어도를 #b",
+      " 얻습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:PrefabModelPower": {
+    "NAME": "조립식 모델",
+    "DESCRIPTIONS": [
+      "#r봉인된 카드를 뽑을때마다 #y방어도를 #b",
+      " 얻습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:TrinityPower": {
+    "NAME": "트리니티 비품 창고",
+    "DESCRIPTIONS": [
+      "#y매설 카드를 #y수집할 때마다 카드를 #b",
+      " 장 뽑습니다.",
+      " 장 뽑습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:ItazuraStraightPower": {
+    "NAME": "장난스런 스트레이트",
+    "DESCRIPTIONS": [
+      "턴 시작시 버린 카드 더미에서 ",
+      " 카드를 #y수집합니다."
+    ]
+  }
+}

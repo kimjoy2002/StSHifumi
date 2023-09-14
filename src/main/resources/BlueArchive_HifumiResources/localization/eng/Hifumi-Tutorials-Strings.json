@@ -1,0 +1,15 @@
+{
+  "BlueArchive_Hifumi:HifumiTutorial": {
+    "TEXT": [
+      "#bHifumi has a special #yPeroroGoods relic. NL #yPeroroGoods has no effect on its own, but you can use the effect by using a card that uses the effect of the #yPeroroGoods.",
+      "#yPeroroGoods do not appear normally and can only be purchased at shop available only to #bHifumi. NL You can go to a #yspecial #yshop by clicking on the #ygacha #ymachine to the left of the regular shop. NL Buy it with #yGold, or combine low rarity #yPerorogoods and exchange them for high rarity #yPerorogoods."
+    ],
+    "LABEL": [
+      "Next",
+      "Ok",
+      "Tutorial",
+      "(Page: ",
+      ")"
+    ]
+  }
+}

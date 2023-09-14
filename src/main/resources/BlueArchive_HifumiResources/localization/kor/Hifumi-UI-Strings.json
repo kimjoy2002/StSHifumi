@@ -1,0 +1,79 @@
+{
+  "BlueArchive_Hifumi:CollectSelectAction": {
+    "TEXT": [
+      "수집해올 카드를 선택하십시오."
+    ]
+  },
+  "BlueArchive_Hifumi:TimeBoxAction": {
+    "TEXT": [
+      "뽑을 카드 더미로 되돌릴 카드를 선택하십시오."
+    ]
+  },
+  "BlueArchive_Hifumi:LabelingAction": {
+    "TEXT": [
+      "맨 밑으로 보낼 카드를 선택하십시오."
+    ]
+  },
+  "BlueArchive_Hifumi:SpadeworkAction": {
+    "TEXT": [
+      "매설을 부여할 카드를 선택하십시오.",
+      "BlueArchive_Hifumi:매설",
+      "수집불가와 매설을 부여할 카드를 선택하십시오.",
+      "BlueArchive_Hifumi:수집불가"
+    ]
+  },
+  "BlueArchive_Hifumi:SecondhandTradeAction": {
+    "TEXT": [
+      "매설을 부여하여 버릴 카드를 선택하십시오.",
+      "매설을 부여하여 버릴 카드를 ",
+      "장 선택하십시오."
+    ]
+  },
+  "BlueArchive_Hifumi:AddLearnedAction": {
+    "TEXT": [
+      "후천성 부여",
+      "BlueArchive_Hifumi:후천성",
+      "후천성을 부여할 카드를 선택하십시오."
+    ]
+  },
+  "BlueArchive_Hifumi:CopyDiscardAction": {
+    "TEXT": [
+      "복제할 카드를 선택하십시오."
+    ]
+  },
+  "BlueArchive_Hifumi:GachaPon": {
+    "TEXT": [
+      "페로로굿즈 가챠",
+      "일반등급의 무작위 #y페로로굿즈를 1개 얻습니다. 구매후 비용이 #b",
+      " 증가합니다.",
+      "일반등급의 무작위 #y페로로굿즈를 2개 얻습니다.",
+      "희귀등급의 무작위 #y페로로굿즈를 1개 얻습니다."
+    ]
+  },
+  "BlueArchive_Hifumi:OurStoryAction": {
+    "TEXT": [
+      "손으로 가져올 카드를 선택하십시오."
+    ]
+  },
+  "BlueArchive_Hifumi:CannonModifier": {
+    "TEXT": [
+      "BlueArchive_Hifumi:포격"
+    ]
+  },
+  "BlueArchive_Hifumi:ItazuraAction": {
+    "TEXT": [
+      "버린 카드 더미로 보낼 카드를 선택하십시오."
+    ]
+  },
+  "BlueArchive_Hifumi:EvoveAttackAction": {
+    "TEXT": [
+      "진화시키기!",
+      "진화의 방향을 선택하십시오."
+    ]
+  },
+  "BlueArchive_Hifumi:CarWashAction": {
+    "TEXT": [
+      "카드를 선택하십시오."
+    ]
+  }
+}

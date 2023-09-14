@@ -1,0 +1,110 @@
+{
+  "BlueArchive_Hifumi:MineExpertPower": {
+    "NAME": "Crusader-chan, please!",
+    "DESCRIPTIONS": [
+      "The damage and #yBlock of #yArtillery cards increase by #b",
+      "."
+    ]
+  },
+  "BlueArchive_Hifumi:PassionateCollector": {
+    "NAME": "Passionate Collector",
+    "DESCRIPTIONS": [
+      "Whenever you #yCollect, gain #b",
+      " #yBlock."
+    ]
+  },
+  "BlueArchive_Hifumi:LabelingPower": {
+    "NAME": "Labeling",
+    "DESCRIPTIONS": [
+      "At the start of your turn, choose up to #b",
+      " card from your discard pile and put it on the bottom.",
+      " cards from your discard pile and put it on the bottom."
+    ]
+  },
+  "BlueArchive_Hifumi:BetrayerPower": {
+    "NAME": "Faust Form",
+    "DESCRIPTIONS": [
+      "At the start of your turn, #b",
+      " random cards in your discard pile cost 0 until played."
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroHologramPower": {
+    "NAME": "Peroro Hologram",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b",
+      " #yBlock."
+    ]
+  },
+  "BlueArchive_Hifumi:PerorodzillaPower": {
+    "NAME": "Perorodzilla",
+    "DESCRIPTIONS": [
+      "At the end of your turn, deal #r",
+      " damage to ALL enemies."
+    ]
+  },
+  "BlueArchive_Hifumi:MomoFriendPower": {
+    "NAME": "MomoFriends",
+    "DESCRIPTIONS": [
+      "At the start of your turn, use the effects of ",
+      " #yPeroroGoods."
+    ]
+  },
+  "BlueArchive_Hifumi:IncineratorPower": {
+    "NAME": "Incinerator",
+    "DESCRIPTIONS": [
+       "At the end of your turn, deal damage equal to #b",
+       " times the number of #yCurse and #yStatus cards in your discard pile to ALL enemies."
+    ]
+  },
+  "BlueArchive_Hifumi:AdeliesPower": {
+    "NAME": "Angry Adelie's Blessing",
+    "DESCRIPTIONS": [
+      "Damage dealt by attack cards increases by #b",
+      " for every #b",
+      " cards in your discard pile."
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroBombPower": {
+    "NAME": "Hidden Bomb",
+    "DESCRIPTIONS": [
+      "Deal #r",
+      " damage to ALL enemies when dying."
+    ]
+  },
+  "BlueArchive_Hifumi:Constricted": {
+    "NAME": "Constricted",
+    "DESCRIPTIONS": [
+      "At the start of turn, Take #b",
+      " damage."
+    ]
+  },
+  "BlueArchive_Hifumi:HifumiDaisukiPower": {
+    "NAME": "Hifumi Daisuki",
+    "DESCRIPTIONS": [
+      "Whenever a card is sent to the discard pile, gain #b",
+      " #yBlock."
+    ]
+  },
+  "BlueArchive_Hifumi:PrefabModelPower": {
+    "NAME": "Prefab Model",
+    "DESCRIPTIONS": [
+      "Whenever you draw #yThe #yForbidden #yOne card, gain #b",
+      " #yBlock."
+    ]
+  },
+  "BlueArchive_Hifumi:TrinityPower": {
+    "NAME": "Trinity Warehouse",
+    "DESCRIPTIONS": [
+      "Each time you #yCollect a #yBuried card, draw #b",
+      " card.",
+      " cards."
+    ]
+  },
+  "BlueArchive_Hifumi:ItazuraStraightPower": {
+    "NAME": "Itazura Straight",
+    "DESCRIPTIONS": [
+      "At the start of your turn, #yCollect ",
+      " card from discard pile."
+    ]
+  }
+}

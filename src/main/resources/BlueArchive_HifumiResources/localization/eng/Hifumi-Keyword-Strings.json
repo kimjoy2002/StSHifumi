@@ -1,0 +1,64 @@
+[
+  {
+    "PROPER_NAME": "PeroroGoods",
+    "NAMES": [
+      "perorogoods",
+      "perorogood"
+    ],
+    "DESCRIPTION": "A special, stackable relic that uses effects through cards. Can obtain it at the PeroroGoods shop."
+  },
+  {
+    "PROPER_NAME": "Collect",
+    "NAMES": [
+      "collect",
+      "collected"
+    ],
+    "DESCRIPTION": "Take X cards from your discard pile into your hand, in the order in which they were discarded. When your discard pile is empty, draw cards equal to what is missing."
+  },
+  {
+    "PROPER_NAME": "Grave",
+    "NAMES": [
+      "grave"
+    ],
+    "DESCRIPTION": "Start each combat with this card in your discard pile."
+  },
+  {
+    "PROPER_NAME": "Buried",
+    "NAMES": [
+      "buried",
+      "bury"
+    ],
+    "DESCRIPTION": "This card will not return from your discard pile to your draw pile even if your draw pile is empty."
+  },
+  {
+    "PROPER_NAME": "Uncollectible",
+    "NAMES": [
+      "uncollectible"
+    ],
+    "DESCRIPTION": "This card cannot be collected."
+  },
+  {
+    "PROPER_NAME": "Friend",
+    "NAMES": [
+      "friend",
+      "friends"
+    ],
+    "DESCRIPTION": "There can only be one friend card with the same name in the deck."
+  },
+  {
+    "PROPER_NAME": "Artillery",
+    "NAMES": [
+      "artillery"
+    ],
+    "DESCRIPTION": "If this card remains in your hand at the end of the turn, activate its effect and discard it. Targets are chosen randomly."
+  },
+  {
+    "PROPER_NAME": "temporary_hp",
+    "NAMES": [
+      "temporary",
+      "temporary hp",
+      "temporary_hp"
+    ],
+    "DESCRIPTION": "Temporary HP disappears at the end of combat."
+  }
+]

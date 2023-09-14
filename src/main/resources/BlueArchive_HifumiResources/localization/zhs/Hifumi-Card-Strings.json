@@ -1,0 +1,469 @@
+{
+  "BlueArchive_Hifumi:HifumiStrike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "BlueArchive_Hifumi:HifumiDefend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "BlueArchive_Hifumi:HelpMePeroroSama": {
+    "NAME": "Help me, Peroro-sama!",
+    "DESCRIPTION": "Select BlueArchive_Hifumi:PeroroGoods and use its effect.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Select BlueArchive_Hifumi:PeroroGoods and use its effect."
+  },
+  "BlueArchive_Hifumi:Organized": {
+    "NAME": "Organized",
+    "DESCRIPTION": "Gain !B! Block. NL Discard !M! card. NL BlueArchive_Hifumi:Collect !M!."
+  },
+  "BlueArchive_Hifumi:CollectorsSpirit": {
+    "NAME": "Collector's Spirit",
+    "DESCRIPTION": "BlueArchive_Hifumi:Collect !M!."
+  },
+  "BlueArchive_Hifumi:SwingBag": {
+    "NAME": "Swing Bag",
+    "DESCRIPTION": "Deal !D! damage. NL BlueArchive_Hifumi:Collect !M!."
+  },
+  "BlueArchive_Hifumi:SlowStarter": {
+    "NAME": "Slow Starter",
+    "DESCRIPTION": "BlueArchive_Hifumi:Grave. NL Deal !D! damage."
+  },
+  "BlueArchive_Hifumi:PeroroCoin": {
+    "NAME": "Peroro Coin",
+    "DESCRIPTION": "BlueArchive_Hifumi:Grave. Unplayable. NL When this card is BlueArchive_Hifumi:Collected, gain [E].",
+    "UPGRADE_DESCRIPTION": "BlueArchive_Hifumi:Grave. Unplayable. NL When this card is BlueArchive_Hifumi:Collected, gain [E] [E].",
+    "EXTENDED_DESCRIPTION": [
+      "This card cannot be used."
+    ]
+  },
+  "BlueArchive_Hifumi:Mine": {
+    "NAME": "Land Mine",
+    "DESCRIPTION": "BlueArchive_Hifumi:Buried. NL Deal !D! damage."
+  },
+  "BlueArchive_Hifumi:Propagation": {
+    "NAME": "Propagation",
+    "DESCRIPTION": "Gain !B! Block. NL BlueArchive_Hifumi:Collect !M!. NL Upgrade the BlueArchive_Hifumi:Collected cards."
+  },
+  "BlueArchive_Hifumi:WavecatCushion": {
+    "NAME": "Wavecat Cushion",
+    "DESCRIPTION": "BlueArchive_Hifumi:Grave. NL Gain !B! Block when used or BlueArchive_Hifumi:Collected."
+  },
+  "BlueArchive_Hifumi:SealedStorage": {
+    "NAME": "Airtight Storage",
+    "DESCRIPTION": "Shuffle up to !M! cards from your discard pile into your draw pile. NL Gain Block equal to that number of cards returned.",
+    "UPGRADE_DESCRIPTION": "Shuffle up to !M! cards from your discard pile into your draw pile. NL Gain Block equal to 2 times the number of cards returned."
+  },
+  "BlueArchive_Hifumi:HifumiBlast": {
+    "NAME": "Hifumi Blast",
+    "DESCRIPTION": "Innate. NL Deal 7 damage for each BlueArchive_Hifumi:Grave cards in your discard pile.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Deal !D! damage.)"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroSmash": {
+    "NAME": "Peroro Smash",
+    "DESCRIPTION": "Deal damage to ALL enemies equal to the number of cards in your discard pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Deal damage to ALL enemies equal to the number of cards in your discard pile. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Deal !D! damage.)"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroBargainSale": {
+    "NAME": "Peroro Bargain",
+    "DESCRIPTION": "Choose a common BlueArchive_Hifumi:PeroroGoods and increase its stack by 1 for this combat. NL Use the effect of the selected BlueArchive_Hifumi:PeroroGoods."
+  },
+  "BlueArchive_Hifumi:PerorosBlow": {
+    "NAME": "Peroro's Blow",
+    "DESCRIPTION": "BlueArchive_Hifumi:Grave. BlueArchive_Hifumi:Buried. NL Deal !D! damage to ALL enemies."
+  },
+  "BlueArchive_Hifumi:NimbleCollector": {
+    "NAME": "Nimble Collector",
+    "DESCRIPTION": "BlueArchive_Hifumi:Uncollectible. NL Gain [E] for every !M! cards in your discard pile.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Gain ",
+      " [E].)"
+    ]
+  },
+  "BlueArchive_Hifumi:PerorosamasSupport": {
+    "NAME": "Peroro-sama's Support",
+    "DESCRIPTION": "Deal !D! damage. NL Apply Weak equal to unblocked damage dealt."
+  },
+  "BlueArchive_Hifumi:PassionateCollector": {
+    "NAME": "Passionate Collector",
+    "DESCRIPTION": "Whenever you BlueArchive_Hifumi:collect, gain !M! Block."
+  },
+  "BlueArchive_Hifumi:Minefield": {
+    "NAME": "Minefield",
+    "DESCRIPTION": "Gain !B! Block. NL Add !M! *Land *Mines into your discard pile.",
+    "EXTENDED_DESCRIPTION": ["BlueArchive_Hifumi:Buried"]
+  },
+  "BlueArchive_Hifumi:Bunker": {
+    "NAME": "Bunker",
+    "DESCRIPTION": "BlueArchive_Hifumi:Buried. NL Gain !B! Block."
+  },
+  "BlueArchive_Hifumi:Labeling": {
+    "NAME": "Labeling",
+    "DESCRIPTION": "At the start of your turn, choose up to 1 card from your discard pile and put it on the bottom. NL ( The card placed on the bottom is BlueArchive_Hifumi:collected first. )"
+  },
+  "BlueArchive_Hifumi:Spadework": {
+    "NAME": "Tank Charge",
+    "DESCRIPTION": "Deal !D! damage. NL Add !M! *2-Pounder *HE Card to your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add !M! *2-Pounder *HE+ Card to your hand.",
+    "EXTENDED_DESCRIPTION": ["BlueArchive_Hifumi:Artillery"]
+  },
+  "BlueArchive_Hifumi:TeaTime": {
+    "NAME": "Tea Time",
+    "DESCRIPTION": "Shuffle the cards from your discard pile that do not have BlueArchive_Hifumi:Grave and BlueArchive_Hifumi:Buried into your draw pile. NL BlueArchive_Hifumi:Collect !M!. NL Exhaust."
+  },
+  "BlueArchive_Hifumi:LearnedAttack": {
+    "NAME": "Peroro's Lesson",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, add BlueArchive_Hifumi:Grave to one card in your deck after combat. NL Exhaust."
+  },
+  "BlueArchive_Hifumi:BetrayerForm": {
+    "NAME": "Faust Form",
+    "DESCRIPTION": "At the start of your turn, !M! random cards in your discard pile cost 0 until played."
+  },
+  "BlueArchive_Hifumi:Vigil": {
+    "NAME": "Waiting Line",
+    "DESCRIPTION": "Costs 1 less [E] by 1 for each this card BlueArchive_Hifumi:Collected this combat. NL Deal !D! damage."
+  },
+  "BlueArchive_Hifumi:SecondhandTrade": {
+    "NAME": "Secondhand Trade",
+    "DESCRIPTION": "Choose a card from your draw pile and give it BlueArchive_Hifumi:Buried. Place it into your discard pile. NL Draw !M! cards."
+  },
+  "BlueArchive_Hifumi:ThreeDPrinter": {
+    "NAME": "3D Printer",
+    "DESCRIPTION": "Choose a card from your discard pile. Add !M! copy of that card into your discard pile. NL Draw !BlueArchive_Hifumi:M! card."
+  },
+  "BlueArchive_Hifumi:AhahaAuu": {
+    "NAME": "Ahaha...",
+    "DESCRIPTION": "Deal !D! damage. NL If the enemy was Weak, apply !M! Vulnerable, NL If the enemy was Vulnerable, apply !M! Weak."
+  },
+  "BlueArchive_Hifumi:PeroroOmamori": {
+    "NAME": "Peroro Omamori",
+    "DESCRIPTION": "Unplayable. BlueArchive_Hifumi:Uncollectible. NL While this card is in your discard pile, gain !M! Dexterity.",
+    "UPGRADE_DESCRIPTION": "BlueArchive_Hifumi:Buried. NL Unplayable. BlueArchive_Hifumi:Uncollectible. NL While this card is in your discard pile, gain !M! Dexterity.",
+    "EXTENDED_DESCRIPTION": [
+      "This card cannot be used."
+    ]
+  },
+  "BlueArchive_Hifumi:HugMe": {
+    "NAME": "Hug Me",
+    "DESCRIPTION": "Deal !D! damage. NL At the start of each enemy turn, deal !M! damage."
+  },
+  "BlueArchive_Hifumi:PeroroGoods": {
+    "NAME": "PeroroGoods",
+    "DESCRIPTION": "Use the effects of BlueArchive_Hifumi:PeroroGoods.",
+    "EXTENDED_DESCRIPTION": [
+      "Gain !M! Block.",
+      "Deal !M! Damage to the enemy with the lowest HP.",
+      "Deal !M! damage to ALL enemies.",
+      "Summons a *Hologram that gains !M! Block at the end of each turn. If you already have a *Hologram, Increases Block gained from *Hologram by !BlueArchive_Hifumi:M!.",
+      "Deal !M! damage. NL Increase this relic's damage by !BlueArchive_Hifumi:M! this combat.",
+      "Draw !M! cards.",
+      "Gain !M! Intangible. NL Reduces *Ninpero's stack by 1 during this combat.",
+      "Summons a *Perorodzilla that deals !M! damage to ALL enemies at the end of each turn. If you already have a *Perorodzilla, Increases *Perorodzilla's damage by !BlueArchive_Hifumi:M!.",
+      "Gain !M! [E].",
+      "Activates the effects of 2 other random BlueArchive_Hifumi:PeroroGoods."
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroTicketUncommon": {
+    "NAME": "Peroro Silver Tickets",
+    "DESCRIPTION": "Unplayable. NL This card can be exchanged for 2 random common BlueArchive_Hifumi:PeroroGoods at the peroro shop. NL Cannot be Upgraded.",
+    "EXTENDED_DESCRIPTION": [
+      "This card cannot be used."
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroTicketRare": {
+    "NAME": "Peroro Gold Ticket",
+    "DESCRIPTION": "Unplayable. NL This card can be exchanged for random rare BlueArchive_Hifumi:PeroroGoods at the peroro shop. NL Cannot be Upgraded.",
+    "EXTENDED_DESCRIPTION": [
+      "This card cannot be used."
+    ]
+  },
+  "BlueArchive_Hifumi:MomoFriend": {
+    "NAME": "MomoFriends",
+    "DESCRIPTION": "Select BlueArchive_Hifumi:PeroroGoods. NL At the start of your turn, use the effect of the selected BlueArchive_Hifumi:PeroroGoods."
+  },
+  "BlueArchive_Hifumi:BadAccident": {
+    "NAME": "Bad Accident",
+    "DESCRIPTION": "Select BlueArchive_Hifumi:PeroroGoods. NL Use that effect !M! times. Disable that relic during this combat. NL Exhaust."
+  },
+  "BlueArchive_Hifumi:PeroroFestival": {
+    "NAME": "Peroro Festival",
+    "DESCRIPTION": "Uses the effects of ALL BlueArchive_Hifumi:PeroroGoods in a random order. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Uses the effects of ALL BlueArchive_Hifumi:PeroroGoods in a random order."
+  },
+  "BlueArchive_Hifumi:WhyBeginners": {
+    "NAME": "Amateur Hour",
+    "DESCRIPTION": "Deal !D! damage for each BlueArchive_Hifumi:PeroroGoods.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Attacks ",
+      " times.)"
+    ]
+  },
+  "BlueArchive_Hifumi:Ordinary": {
+    "NAME": "Ordinary",
+    "DESCRIPTION": "Retain. NL Select up to !M! cards from your discard pile and make them BlueArchive_Hifumi:Uncollectible and BlueArchive_Hifumi:Buried. NL Exhaust."
+  },
+  "BlueArchive_Hifumi:SagittaMortis": {
+    "NAME": "Sagitta Mortis",
+    "DESCRIPTION": "BlueArchive_Hifumi:Friend. NL Apply !M! Vulnerable. Shuffle a *Intulit *Mortem into your draw pile. NL Exhaust."
+  },
+  "BlueArchive_Hifumi:IntulitMortem": {
+    "NAME": "Intulit Mortem",
+    "DESCRIPTION": "Deal !D! damage !M! times. NL Deals additional damage equal to the Vulnerable the enemy has."
+  },
+  "BlueArchive_Hifumi:HolyHandGrenade": {
+    "NAME": "Holy Hand Grenade",
+    "DESCRIPTION": "BlueArchive_Hifumi:Friend. NL Deal !D! damage NL OR NL Use yourself to heal !M! HP. NL Exhaust."
+  },
+  "BlueArchive_Hifumi:CastOff": {
+    "NAME": "Cast Off",
+    "DESCRIPTION": "BlueArchive_Hifumi:Friend. NL Gain [E] [E]. Draw !M! cards. Remove ALL Block you have. You cannot gain Block from cards from cards this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "BlueArchive_Hifumi:Friend. NL Gain [E] [E] [E]. Draw !M! cards. Remove ALL Block you have. You cannot gain Block from cards from cards this turn. NL Exhaust."
+  },
+  "BlueArchive_Hifumi:FakePeroro": {
+    "NAME": "Imitation",
+    "DESCRIPTION": "Unplayable. BlueArchive_Hifumi:Uncollectible.",
+    "EXTENDED_DESCRIPTION": [
+      "This card cannot be used."
+    ]
+  },
+  "BlueArchive_Hifumi:BundlePurchase": {
+    "NAME": "Bundle Purchase",
+    "DESCRIPTION": "Gain !B! Block. NL Add !M! *Imitations into your discard pile."
+  },
+  "BlueArchive_Hifumi:Fraud": {
+    "NAME": "Fraud",
+    "DESCRIPTION": "Deal !D! damage. NL Add !M! *Imitation into your discard pile."
+  },
+  "BlueArchive_Hifumi:Incinerator": {
+    "NAME": "Incinerator",
+    "DESCRIPTION": "At the end of your turn, deal damage equal to !M! times the number of Curse and Status cards in your discard pile to ALL enemies."
+  },
+  "BlueArchive_Hifumi:TimeOnTarget": {
+    "NAME": "Time On Target",
+    "DESCRIPTION": "BlueArchive_Hifumi:Friend. BlueArchive_Hifumi:Artillery. BlueArchive_Hifumi:Uncollectible. NL Deal !D! damage. NL This card's BlueArchive_Hifumi:Artillery effect also activates in your discard pile."
+  },
+  "BlueArchive_Hifumi:TwoPounderHighExplosives": {
+    "NAME": "2-Pounder HE",
+    "DESCRIPTION": "BlueArchive_Hifumi:Artillery. NL Deal !D! damage."
+  },
+  "BlueArchive_Hifumi:TankDrift": {
+    "NAME": "Tank Drift",
+    "DESCRIPTION": "Gain !B! Block. NL Add X *FlaK *40 Card to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Add X *FlaK *40+ Card to your hand. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": ["BlueArchive_Hifumi:Artillery"]
+  },
+  "BlueArchive_Hifumi:Flak40": {
+    "NAME": "FlaK 40",
+    "DESCRIPTION": "BlueArchive_Hifumi:Artillery. NL Gain !B! Block."
+  },
+  "BlueArchive_Hifumi:ReloadHighExplosives": {
+    "NAME": "High Explosives Reload!",
+    "DESCRIPTION": "Discard your hand excluding Retain, then draw that many cards. NL Activates the effect of the discarded BlueArchive_Hifumi:Artillery card.",
+    "UPGRADE_DESCRIPTION": "Discard your hand excluding Retain, then draw that many cards. NL Activates the effect of the discarded BlueArchive_Hifumi:Artillery card twice."
+  },
+  "BlueArchive_Hifumi:OurStory": {
+    "NAME": "Our Story",
+    "DESCRIPTION": "Deal !D! damage. NL Choose a card to your discard pile. Take all cards with the same name as that card from your discard pile."
+  },
+  "BlueArchive_Hifumi:Explosion": {
+    "NAME": "Explosion!",
+    "DESCRIPTION": "BlueArchive_Hifumi:Artillery. NL Deal !D! damage to EVERYONE."
+  },
+  "BlueArchive_Hifumi:GourmetResearchSociety": {
+    "NAME": "EAT OR DIE",
+    "DESCRIPTION": "BlueArchive_Hifumi:Friend. NL Deal !D! damage to ALL enemies. NL Add !M! *Explosion! into your discard pile.",
+    "EXTENDED_DESCRIPTION": ["BlueArchive_Hifumi:Artillery"]
+  },
+  "BlueArchive_Hifumi:MaskedSwinsuitGang": {
+    "NAME": "Masked Swimsuit Gang",
+    "DESCRIPTION": "BlueArchive_Hifumi:Friend. NL Deal !D! damage !M! times. NL Deals additional damage equal to the number of other BlueArchive_Hifumi:Friend cards in your deck."
+  },
+  "BlueArchive_Hifumi:Reisa": {
+    "NAME": "Invitation Fail",
+    "DESCRIPTION": "In the end, friend didn't come."
+  },
+  "BlueArchive_Hifumi:AngryAdeliesBlessing": {
+    "NAME": "Angry Adelie's Blessing",
+    "DESCRIPTION": "Damage dealt by attack cards increases by 1 for every !M! cards in your discard pile."
+  },
+  "BlueArchive_Hifumi:SiegeMode": {
+    "NAME": "Siege Mode",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gives BlueArchive_Hifumi:Artillery to this card."
+  },
+  "BlueArchive_Hifumi:PleaseCrusaderChan": {
+    "NAME": "Crusader-chan, please!",
+    "DESCRIPTION": "Add 1 *2-Pounder *HE Card to your hand. NL The damage and Block of BlueArchive_Hifumi:Artillery cards increase by !M! during this combat"
+  },
+  "BlueArchive_Hifumi:PeroroBomb": {
+    "NAME": "Peroro Bomb",
+    "DESCRIPTION": "Deal !D! damage. NL When the enemy dies during this combat, deal damage !M! to ALL enemies."
+  },
+  "BlueArchive_Hifumi:PerfectedPeroroStrike": {
+    "NAME": "Perfected Peroro Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Deals !M! additional damage for ALL your cards containing \"Peroro\"."
+  },
+  "BlueArchive_Hifumi:IncandescentEyes": {
+    "NAME": "Incandescent Eyes",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Vulnerable. NL Increase this card's damage and Vulnerable by !BlueArchive_Hifumi:M! this combat."
+  },
+  "BlueArchive_Hifumi:RuinConstruction": {
+    "NAME": "Ruin Construction",
+    "DESCRIPTION": "Exhaust all BlueArchive_Hifumi:Buried cards in your discard pile. Deal !D! damage to ALL enemies for each Exhausted card.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Attacks ",
+      " times.)"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroTheForbiddenOne": {
+    "NAME": "Peroro The Forbidden One",
+    "DESCRIPTION": "Unplayable. NL BlueArchive_Hifumi:Uncollectible. Retain. NL If you have all *Forbidden cards, Exhaust them all. Then deal !M! damage to all enemies and draw !BlueArchive_Hifumi:M! cards.",
+    "EXTENDED_DESCRIPTION": [
+      "This card cannot be used.",
+      "Unplayable. NL BlueArchive_Hifumi:Uncollectible. Retain.",
+      "Peroro The Forbidden One",
+      "Left Arm of Peroro The Forbidden One",
+      "Right Arm of Peroro The Forbidden One",
+      "Left Leg of Peroro The Forbidden One",
+      "Right Leg of Peroro The Forbidden One"
+    ]
+  },
+  "BlueArchive_Hifumi:AnotherMe": {
+    "NAME": "Prefab Model",
+    "DESCRIPTION": "Add 5 *Peroro *The *Forbidden *One cards into your discard pile. NL Whenever you draw *Forbidden card, gain !M! Block.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Add 5 *Peroro *The *Forbidden *One cards into your discard pile. NL Whenever you draw *Forbidden card, gain !M! Block."
+  },
+  "BlueArchive_Hifumi:RandomSwingStrike": {
+    "NAME": "Random Swing Strike",
+    "DESCRIPTION": "Whenever you BlueArchive_Hifumi:Collect this card, add a copy of it to your hand. NL Deal !D! damage."
+  },
+  "BlueArchive_Hifumi:FunnyFriendFantasy": {
+    "NAME": "Funny Friend Fantasy",
+    "DESCRIPTION": "Deal !D! damage. NL If transformed or removed from your deck, Add a random BlueArchive_Hifumi:Friend card to your deck.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL If transformed or removed from your deck, Add a random Upgraded BlueArchive_Hifumi:Friend card to your deck."
+  },
+  "BlueArchive_Hifumi:FestivalGacha": {
+    "NAME": "Festival Gacha",
+    "DESCRIPTION": "Copies all cards in your discard pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Copies all cards in your discard pile. NL Exhaust."
+  },
+  "BlueArchive_Hifumi:HifumiDaisuki": {
+    "NAME": "Hifumi Daisuki",
+    "DESCRIPTION": "Whenever a card is sent to your discard pile, gain 1 Block.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever a card is sent to your discard pile, gain 1 Block."
+  },
+  "BlueArchive_Hifumi:ScooterCover": {
+    "NAME": "Motorcycle Cover",
+    "DESCRIPTION": "Retain. NL Can only be used on turns in which an attack card is not used. Gain !B! Block. NL You cannot use attack cards this turn.",
+    "EXTENDED_DESCRIPTION": [
+      "I already used an attack card this turn."
+    ]
+  },
+  "BlueArchive_Hifumi:ChainExplosion": {
+    "NAME": "Chain Explosion",
+    "DESCRIPTION": "Deal !D! damage. NL Additional attacks equal to the number of *Chain *Explosions in your discard pile.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Attacks ",
+      " times.)"
+    ]
+  },
+  "BlueArchive_Hifumi:FrameTrace": {
+    "NAME": "Scooter Drift",
+    "DESCRIPTION": "Gain !B! Block. NL Add a *Flame *Trace into your hand.",
+    "UPGRADE_DESCRIPTION":  "Gain !B! Block. NL Add a *Flame *Trace+ into your hand."
+  },
+  "BlueArchive_Hifumi:RingOfFire": {
+    "NAME": "Flame Trace",
+    "DESCRIPTION": "Unplayable. NL Retain. BlueArchive_Hifumi:Buried. NL When you use an attack card, increase its damage by !M! and then discard this card.",
+    "EXTENDED_DESCRIPTION": [
+      "This card cannot be used."
+    ]
+  },
+  "BlueArchive_Hifumi:YouAreMine": {
+    "NAME": "You Are Mine!",
+    "DESCRIPTION": "Apply !M! Weak and Vulnerable. NL The target loses HP equal to 2 times the sum of all debuff values the target has. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "You Are Mine!"
+    ]
+  },
+  "BlueArchive_Hifumi:BarbedFence": {
+    "NAME": "Barbed Fence",
+    "DESCRIPTION": "BlueArchive_Hifumi:Buried. NL Deal !D! damage and apply !M! Weak to ALL enemies. NL When this card is sent to the discard pile, apply !BlueArchive_Hifumi:M! Weak to ALL enemies."
+  },
+  "BlueArchive_Hifumi:TrinityWarehouse": {
+    "NAME": "Trinity Warehouse",
+    "DESCRIPTION": "Each time you BlueArchive_Hifumi:Collect a BlueArchive_Hifumi:Buried card, draw !M! card."
+  },
+  "BlueArchive_Hifumi:ItazuraStraight": {
+    "NAME": "Itazura Straight",
+    "DESCRIPTION": "BlueArchive_Hifumi:Friend. NL Select 1 BlueArchive_Hifumi:Uncollectible card from draw pile and put it in discard pile. At the start of your turn, BlueArchive_Hifumi:Collect that card from discard pile.",
+    "UPGRADE_DESCRIPTION":  "BlueArchive_Hifumi:Friend. Innate. NL Select 1 BlueArchive_Hifumi:Uncollectible card from draw pile and put it in discard pile. At the start of your turn, BlueArchive_Hifumi:Collect that card from discard pile."
+  },
+  "BlueArchive_Hifumi:LuckyPunch": {
+    "NAME": "Lucky Punch",
+    "DESCRIPTION": "Deal !D! damage. NL If this card was never used during this combat, cost is permanently reduced by !M!, or if it was used, cost becomes 3 the next combat."
+  },
+  "BlueArchive_Hifumi:EvolvingPeroro": {
+    "NAME": "Evolving Peroro",
+    "DESCRIPTION": "Deal !D! damage. NL If Fatal, it evolves after the combat by choosing one of three random Upgrade. NL ( !M! left.)",
+    "EXTENDED_DESCRIPTION": [
+      "Deal !D! damage.",
+      "Gain !B! Block.",
+      "Apply !BlueArchive_Hifumi:M! Weak.",
+      "Apply !BlueArchive_Hifumi:M! Vulnerable.",
+      "Apply !BlueArchive_Hifumi:M! Weak and Vulnerable.",
+      "If Fatal, Evove.",
+      "NL ( !M! left.)",
+      "Deal !D! damage twice.",
+      "Deal !D! damage 3 times.",
+      "Deal !D! damage to ALL enemies.",
+      "BlueArchive_Hifumi:Artillery.",
+      "Apply !BlueArchive_Hifumi:M! Weak to ALL enemies.",
+      "Apply !BlueArchive_Hifumi:M! Vulnerable to ALL enemies.",
+      "Apply !BlueArchive_Hifumi:M! Weak and Vulnerable to ALL enemies.",
+      "Exhaust.",
+      "Draw !BlueArchive_Hifumi:M2! card.",
+      "BlueArchive_Hifumi:Collect !BlueArchive_Hifumi:M2!.",
+      "Retain.",
+      "Add 1 *Imitation to your hand.",
+      "Add 2 *Imitations to your hand.",
+      "BlueArchive_Hifumi:Buried."
+    ]
+  },
+  "BlueArchive_Hifumi:CampOfDoll": {
+    "NAME": "Camp Of Doll",
+    "DESCRIPTION": "Gain !B! Block. NL Gain 2 additional Block for each Status or Curse card in your discard pile."
+  },
+  "BlueArchive_Hifumi:PeroroLimitedEdition": {
+    "NAME": "Peroro Limited Edition",
+    "DESCRIPTION": "Gain !B! Block. NL If this card has been BlueArchive_Hifumi:Collected this turn, select BlueArchive_Hifumi:PeroroGoods and use its effect."
+  },
+  "BlueArchive_Hifumi:PerfectCollector": {
+    "NAME": "Perfect Collector",
+    "DESCRIPTION": "BlueArchive_Hifumi:Grave. Retain. NL Can be used when there are 7 or more kinds of cards collected during this combat. NL Gain !M! Strength and Dexterity.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " left.)",
+      "It's not available yet."
+    ]
+  },
+  "BlueArchive_Hifumi:CarWash": {
+    "NAME": "Car Wash",
+    "DESCRIPTION": "Choose a card from your discard pile. NL The next time that card is used, it will be used twice.",
+    "UPGRADE_DESCRIPTION": "Choose a card from your discard pile. NL The next time that card is used, it will be used twice. NL BlueArchive_Hifumi:Collect !M!.",
+    "EXTENDED_DESCRIPTION": [
+      "Use ",
+      "times."
+    ]
+  },
+  "BlueArchive_Hifumi:Wanted": {
+    "NAME": "Wanted",
+    "DESCRIPTION": "Unplayable. NL Cannot be removed from your deck. NL When this card is BlueArchive_Hifumi:Collected, permanently adds a new *Wanted card to your deck.",
+    "EXTENDED_DESCRIPTION": [
+      "This card cannot be used."
+    ]
+  }
+}

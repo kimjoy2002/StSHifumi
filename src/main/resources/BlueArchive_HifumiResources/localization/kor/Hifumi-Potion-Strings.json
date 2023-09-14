@@ -1,0 +1,10 @@
+{
+  "BlueArchive_Hifumi:CollectPotion": {
+    "NAME": "수집 포션",
+    "DESCRIPTIONS": ["#y수집을 #b", " 합니다."]
+  },
+  "BlueArchive_Hifumi:PeroroPotion": {
+    "NAME": "페로로 포션",
+    "DESCRIPTIONS": ["보유한 #y페로로굿즈를 하나 골라 이번 전투동안만 #b", " 개 더 얻습니다. 선택한 #y페로로굿즈의 효과를 발동합니다."]
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "BlueArchive_Hifumi:HifumiStrike": {
+    "NAME": "타격",
+    "DESCRIPTION": "피해를 !D! 줍니다."
+  },
+  "BlueArchive_Hifumi:HifumiDefend": {
+    "NAME": "수비",
+    "DESCRIPTION": "방어도를 !B! 얻습니다."
+  },
+  "BlueArchive_Hifumi:HelpMePeroroSama": {
+    "NAME": "도와줘요 페로로님!",
+    "DESCRIPTION": "선택한 BlueArchive_Hifumi:페로로굿즈의 효과를 발동합니다.",
+    "UPGRADE_DESCRIPTION": "보존. NL 선택한 BlueArchive_Hifumi:페로로굿즈의 효과를 발동합니다."
+  },
+  "BlueArchive_Hifumi:Organized": {
+    "NAME": "정리정돈",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 카드를 !M! 장 버립니다. NL BlueArchive_Hifumi:수집 !M!."
+  },
+  "BlueArchive_Hifumi:CollectorsSpirit": {
+    "NAME": "수집가의 근성",
+    "DESCRIPTION": "BlueArchive_Hifumi:수집 !M!."
+  },
+  "BlueArchive_Hifumi:SwingBag": {
+    "NAME": "가방 휘두르기",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL BlueArchive_Hifumi:수집 !M!."
+  },
+  "BlueArchive_Hifumi:SlowStarter": {
+    "NAME": "슬로우 스타터",
+    "DESCRIPTION": "BlueArchive_Hifumi:후천성. NL 피해를 !D! 줍니다."
+  },
+  "BlueArchive_Hifumi:PeroroCoin": {
+    "NAME": "페로로 코인",
+    "DESCRIPTION": "BlueArchive_Hifumi:후천성. 사용불가. NL 이 카드가 BlueArchive_Hifumi:수집되면 NL [E] 을 얻습니다.",
+    "UPGRADE_DESCRIPTION": "BlueArchive_Hifumi:후천성. 사용불가. NL 이 카드가 BlueArchive_Hifumi:수집되면 NL [E] [E] 을 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "이 카드는 사용할 수 없어."
+    ]
+  },
+  "BlueArchive_Hifumi:Mine": {
+    "NAME": "지뢰",
+    "DESCRIPTION": "BlueArchive_Hifumi:매설. NL 피해를 !D! 줍니다."
+  },
+  "BlueArchive_Hifumi:Propagation": {
+    "NAME": "포교",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL BlueArchive_Hifumi:수집 !M!. NL BlueArchive_Hifumi:수집한 카드를 강화합니다."
+  },
+  "BlueArchive_Hifumi:WavecatCushion": {
+    "NAME": "웨이브캣 쿠션",
+    "DESCRIPTION": "BlueArchive_Hifumi:후천성. NL 이 카드를 사용하거나 BlueArchive_Hifumi:수집하면 방어도를 !B! 얻습니다."
+  },
+  "BlueArchive_Hifumi:SealedStorage": {
+    "NAME": "밀봉 보관",
+    "DESCRIPTION": "버린 카드 더미에서 카드를 !M! 장까지 선택하여 뽑을 카드 더미에 섞어 넣습니다. NL 그만큼 방어도를 얻습니다.",
+    "UPGRADE_DESCRIPTION": "버린 카드 더미에서 카드를 !M! 장까지 선택하여 뽑을 카드 더미에 섞어 넣습니다. NL 그 두배만큼 방어도를 얻습니다."
+  },
+  "BlueArchive_Hifumi:HifumiBlast": {
+    "NAME": "히후미 블래스트",
+    "DESCRIPTION": "선천성. NL 버린 카드 더미의 BlueArchive_Hifumi:후천성 카드 하나당 !M! 만큼 피해를 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (피해를 !D! 줍니다.)"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroSmash": {
+    "NAME": "페로로 스매쉬",
+    "DESCRIPTION": "버린 카드 더미에 있는 카드 수만큼 적 전체에 피해를 줍니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "보존. NL 버린 카드 더미에 있는 카드 수만큼 적 전체에 피해를 줍니다. NL 소멸.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (피해를 !D! 줍니다.)"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroBargainSale": {
+    "NAME": "페로로 바겐세일",
+    "DESCRIPTION": "보유한 일반 희귀도의 BlueArchive_Hifumi:페로로굿즈를 하나 골라 이번 전투동안만 !M! 개 더 얻습니다. NL 선택한 BlueArchive_Hifumi:페로로굿즈의 효과를 발동합니다."
+  },
+  "BlueArchive_Hifumi:PerorosBlow": {
+    "NAME": "페로로님의 일격",
+    "DESCRIPTION": "BlueArchive_Hifumi:후천성. BlueArchive_Hifumi:매설. NL 적 전체에 피해를 !D! 줍니다."
+  },
+  "BlueArchive_Hifumi:NimbleCollector": {
+    "NAME": "민첩한 수집가",
+    "DESCRIPTION": "BlueArchive_Hifumi:수집불가. NL 버리기 카드 더미에 있는 카드 !M! 장마다 [E] 를 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      "만큼 얻습니다.)"
+    ]
+  },
+  "BlueArchive_Hifumi:PerorosamasSupport": {
+    "NAME": "페로로님의 응원",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 막히지 않은 피해량만큼 약화를 부여합니다."
+  },
+  "BlueArchive_Hifumi:PassionateCollector": {
+    "NAME": "열정적인 수집가",
+    "DESCRIPTION": "BlueArchive_Hifumi:수집할 때마다 방어도를 !M! 얻습니다."
+  },
+  "BlueArchive_Hifumi:Minefield": {
+    "NAME": "지뢰밭",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 버린 카드 더미에 *지뢰 카드를 !M! 장 넣습니다.",
+    "EXTENDED_DESCRIPTION": ["BlueArchive_Hifumi:매설"]
+  },
+  "BlueArchive_Hifumi:Bunker": {
+    "NAME": "벙커",
+    "DESCRIPTION": "BlueArchive_Hifumi:매설. NL 방어도를 !B! 얻습니다."
+  },
+  "BlueArchive_Hifumi:Labeling": {
+    "NAME": "이름 붙이기",
+    "DESCRIPTION": "턴 시작시 버린 카드 더미에서 1장까지 선택해 맨 밑에 둡니다. NL ( 맨 밑에 놓인 카드는 먼저 BlueArchive_Hifumi:수집됩니다. )"
+  },
+  "BlueArchive_Hifumi:Spadework": {
+    "NAME": "전차 박치기",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL *2파운더 *고폭탄 카드를 !M! 장 얻습니다.",
+    "UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL *2파운더 *고폭탄+ 카드를 !M! 장 얻습니다.",
+    "EXTENDED_DESCRIPTION": ["BlueArchive_Hifumi:포격"]
+  },
+  "BlueArchive_Hifumi:TeaTime": {
+    "NAME": "티타임",
+    "DESCRIPTION": "버린 카드 더미에서 BlueArchive_Hifumi:후천성과 BlueArchive_Hifumi:매설이 없는 모든 카드를 뽑을 카드 더미에 되돌리고 섞습니다. NL BlueArchive_Hifumi:수집 !M!. NL 소멸."
+  },
+  "BlueArchive_Hifumi:LearnedAttack": {
+    "NAME": "페로로님의 교훈",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 치명타라면 전투 후 덱에 있는 카드 한 장에 BlueArchive_Hifumi:후천성을 영구히 부여할 수 있습니다. NL 소멸."
+  },
+  "BlueArchive_Hifumi:BetrayerForm": {
+    "NAME": "파우스트의 형상",
+    "DESCRIPTION": "턴이 시작할때 버린 카드 더미에 있는 무작위 카드 !M! 장들은 사용하기 전까지 비용이 0이 됩니다."
+  },
+  "BlueArchive_Hifumi:Vigil": {
+    "NAME": "철야조",
+    "DESCRIPTION": "이 카드를 BlueArchive_Hifumi:수집할 때마다 이번 전투 동안 이 카드의 비용이 1 감소합니다. NL 피해를 !D! 줍니다."
+  },
+  "BlueArchive_Hifumi:SecondhandTrade": {
+    "NAME": "중고 거래",
+    "DESCRIPTION": "뽑을 카드 더미에서 카드를 1장 선택하고 BlueArchive_Hifumi:매설을 부여하여 버립니다. NL 카드를 !M! 장 뽑습니다."
+  },
+  "BlueArchive_Hifumi:ThreeDPrinter": {
+    "NAME": "3D 프린터",
+    "DESCRIPTION": "버린 카드 더미의 카드를 선택하고 !M! 장 복사하여 버린 카드 더미에 넣습니다. NL 카드를 !BlueArchive_Hifumi:M! 장 뽑습니다."
+  },
+  "BlueArchive_Hifumi:AhahaAuu": {
+    "NAME": "유리할땐 아하하, 불리할땐 아우우",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 적에게 약화가 있었다면 취약을 !M! 부여하고, NL 적에게 취약이 있었다면 약화을 !M! 부여합니다."
+  },
+  "BlueArchive_Hifumi:PeroroOmamori": {
+    "NAME": "페로로 부적",
+    "DESCRIPTION": "사용불가. BlueArchive_Hifumi:수집불가. NL 이 카드가 버린 카드 더미에 있는 동안 민첩을 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "BlueArchive_Hifumi:매설. NL 사용불가. BlueArchive_Hifumi:수집불가. NL 이 카드가 버린 카드 더미에 있는 동안 민첩을 !M! 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "이 카드는 사용할 수 없어."
+    ]
+  },
+  "BlueArchive_Hifumi:HugMe": {
+    "NAME": "안아줘요",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 추가로 적의 턴이 시작할때마다 해당 적에게 피해를 !M! 줍니다."
+  },
+  "BlueArchive_Hifumi:PeroroGoods": {
+    "NAME": "페로로굿즈",
+    "DESCRIPTION": "BlueArchive_Hifumi:페로로굿즈의 능력을 사용합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "방어도를 !M! 얻습니다.",
+      "가장 체력이 낮은 적에게 피해를 !M! 줍니다.",
+      "적 전체에 피해를 !M! 줍니다.",
+      "턴이 끝날때마다 방어도를 !M! 얻는 소환물을 소환합니다. 동일한 소환물이 이미 있으면 얻는 방어도가 !BlueArchive_Hifumi:M! 증가합니다.",
+      "무작위 적에게 피해를 !M! 줍니다. 사용할때 마다 이번 전투 동안 피해량이 !BlueArchive_Hifumi:M! 증가합니다.",
+      "카드를 !M! 장 뽑습니다.",
+      "사용시 불가침을 !M! 얻고 이번 전투동안 *닌페로의 중첩이 1 감소합니다.",
+      "턴이 끝날때마다 적 전체에 피해를 !M! 줍니다. 동일한 소환물이 이미 있으면 피해량이 !BlueArchive_Hifumi:M! 증가합니다.",
+      "[E] 를 !M! 만큼 얻습니다.",
+      "다른 무작위 BlueArchive_Hifumi:페로로굿즈 2 개를 사용합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroTicketUncommon": {
+    "NAME": "페로로 실버 티켓",
+    "DESCRIPTION": "사용불가. NL 이 카드는 페로로 상점에서 무작위 일반등급 BlueArchive_Hifumi:페로로굿즈 2개와 교환이 가능합니다. NL 강화 할 수 없습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "이 카드는 사용할 수 없어."
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroTicketRare": {
+    "NAME": "페로로 골든 티켓",
+    "DESCRIPTION": "사용불가. NL 이 카드는 페로로 상점에서 무작위 희귀등급 BlueArchive_Hifumi:페로로굿즈와 교환이 가능합니다. NL 강화 할 수 없습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "이 카드는 사용할 수 없어."
+    ]
+  },
+  "BlueArchive_Hifumi:MomoFriend": {
+    "NAME": "모모프렌즈",
+    "DESCRIPTION": "사용시 보유한 BlueArchive_Hifumi:페로로굿즈를 하나 선택합니다. NL 턴이 시작할때 선택한 BlueArchive_Hifumi:페로로굿즈의 효과를 발동합니다."
+  },
+  "BlueArchive_Hifumi:BadAccident": {
+    "NAME": "불운한 사고",
+    "DESCRIPTION": "BlueArchive_Hifumi:페로로굿즈를 하나 선택합니다. 효과를 !M! 번 발동합니다. 그 유물을 이번 전투동안 비활성화합니다. NL 소멸."
+  },
+  "BlueArchive_Hifumi:PeroroFestival": {
+    "NAME": "페로로 축제",
+    "DESCRIPTION": "모든 BlueArchive_Hifumi:페로로굿즈의 효과를 무작위 순서로 발동합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "모든 BlueArchive_Hifumi:페로로굿즈의 효과를 무작위 순서로 발동합니다."
+  },
+  "BlueArchive_Hifumi:WhyBeginners": {
+    "NAME": "이래서 초심자란",
+    "DESCRIPTION": "보유한 BlueArchive_Hifumi:페로로굿즈 종류 하나당 피해를 !D! 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      "번 공격합니다.)"
+    ]
+  },
+  "BlueArchive_Hifumi:Ordinary": {
+    "NAME": "평범",
+    "DESCRIPTION": "보존. NL 버린 카드 더미의 카드를 !M! 장까지 선택하여 BlueArchive_Hifumi:수집불가와 BlueArchive_Hifumi:매설을 부여합니다. NL 소멸."
+  },
+  "BlueArchive_Hifumi:SagittaMortis": {
+    "NAME": "Sagitta Mortis",
+    "DESCRIPTION": "BlueArchive_Hifumi:친구. NL 적에게 취약을 !M! 부여합니다. 뽑을 카드 더미에 *Intulit *Mortem 카드를 섞어 넣습니다. NL 소멸."
+  },
+  "BlueArchive_Hifumi:IntulitMortem": {
+    "NAME": "Intulit Mortem",
+    "DESCRIPTION": "피해를 !D! 만큼 !M! 번 줍니다. 적에게 부여된 취약 만큼 피해량이 증가합니다."
+  },
+  "BlueArchive_Hifumi:HolyHandGrenade": {
+    "NAME": "성스러운 수류탄",
+    "DESCRIPTION": "BlueArchive_Hifumi:친구. NL 피해를 !D! 줍니다. NL 또는 NL 자신에게 사용하여 체력을 !M! 회복합니다. NL 소멸."
+  },
+  "BlueArchive_Hifumi:CastOff": {
+    "NAME": "캐스트 오프",
+    "DESCRIPTION": "BlueArchive_Hifumi:친구. NL [E] [E] 를 얻습니다. NL 카드를 !M! 장 뽑습니다. 가진 방어도를 모두 제거합니다. 이번 턴 동안 카드를 통해 방어도를 얻을 수 없습니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "BlueArchive_Hifumi:친구. NL [E] [E] [E] 를 얻습니다. NL 카드를 !M! 장 뽑습니다. 가진 방어도를 모두 제거합니다. 이번 턴 동안 카드를 통해 방어도를 얻을 수 없습니다. NL 소멸."
+  },
+  "BlueArchive_Hifumi:FakePeroro": {
+    "NAME": "짝퉁 굿즈",
+    "DESCRIPTION": "사용불가. BlueArchive_Hifumi:수집불가.",
+    "EXTENDED_DESCRIPTION": [
+      "이 카드는 사용할 수 없어."
+    ]
+  },
+  "BlueArchive_Hifumi:BundlePurchase": {
+    "NAME": "번들 구매",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 버린 카드 더미에 *짝퉁 *굿즈 카드를 !M! 장 넣습니다."
+  },
+  "BlueArchive_Hifumi:Fraud": {
+    "NAME": "사기",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 버린 카드 더미에 *짝퉁 *굿즈 카드를 !M! 장 넣습니다."
+  },
+  "BlueArchive_Hifumi:Incinerator": {
+    "NAME": "소각로",
+    "DESCRIPTION": "턴이 끝날때 버린 카드 더미에 놓여진 상태이상, 저주 하나당 !M! 만큼 적 전체에 피해를 줍니다."
+  },
+  "BlueArchive_Hifumi:TimeOnTarget": {
+    "NAME": "Time On Target",
+    "DESCRIPTION": "BlueArchive_Hifumi:친구. BlueArchive_Hifumi:포격. BlueArchive_Hifumi:수집불가. NL 피해를 !D! 줍니다. NL 이 카드는 버린 카드 더미에서도 BlueArchive_Hifumi:포격이 발동합니다."
+  },
+  "BlueArchive_Hifumi:TwoPounderHighExplosives": {
+    "NAME": "2파운더 고폭탄",
+    "DESCRIPTION": "BlueArchive_Hifumi:포격. NL 피해를 !D! 줍니다."
+  },
+  "BlueArchive_Hifumi:TankDrift": {
+    "NAME": "전차 드리프트",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL *40mm *대공포 카드를 X 장 얻습니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "방어도를 !B! 얻습니다. NL *40mm *대공포+ 카드를 X 장 얻습니다. NL 소멸.",
+    "EXTENDED_DESCRIPTION": ["BlueArchive_Hifumi:포격"]
+  },
+  "BlueArchive_Hifumi:Flak40": {
+    "NAME": "40mm 대공포",
+    "DESCRIPTION": "BlueArchive_Hifumi:포격. NL 방어도를 !B! 얻습니다."
+  },
+  "BlueArchive_Hifumi:ReloadHighExplosives": {
+    "NAME": "고폭탄 장전!",
+    "DESCRIPTION": "보존 카드를 제외한 손의 카드를 전부 버리고 그만큼 카드를 뽑습니다. NL 버린 카드들의 BlueArchive_Hifumi:포격 효과를 발동합니다.",
+    "UPGRADE_DESCRIPTION": "보존 카드를 제외한 손의 카드를 전부 버리고 그만큼 카드를 뽑습니다. NL 버린 카드들의 BlueArchive_Hifumi:포격 효과를 2번 발동합니다."
+  },
+  "BlueArchive_Hifumi:OurStory": {
+    "NAME": "우리들의 이야기",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 버린 카드 더미에 카드 한 장을 선택합니다. 버린 카드 더미에서 그 카드와 동일한 이름의 카드를 전부 가져옵니다."
+  },
+  "BlueArchive_Hifumi:Explosion": {
+    "NAME": "폭발!",
+    "DESCRIPTION": "BlueArchive_Hifumi:포격. NL 모든 캐릭터에게 피해를 !D! 줍니다."
+  },
+  "BlueArchive_Hifumi:GourmetResearchSociety": {
+    "NAME": "EAT OR DIE",
+    "DESCRIPTION": "BlueArchive_Hifumi:친구. NL 적 전체에게 피해를 !D! 줍니다. NL 버린 카드 더미에 *폭발! 카드를 !M! 장 넣습니다.",
+    "EXTENDED_DESCRIPTION": ["BlueArchive_Hifumi:포격"]
+  },
+  "BlueArchive_Hifumi:MaskedSwinsuitGang": {
+    "NAME": "수영복 복면단",
+    "DESCRIPTION": "BlueArchive_Hifumi:친구. NL 피해를 !D! 만큼 !M! 번 줍니다. NL 덱에 보유한 다른 BlueArchive_Hifumi:친구 카드 수만큼 피해량이 !BlueArchive_Hifumi:M! 증가합니다."
+  },
+  "BlueArchive_Hifumi:Reisa": {
+    "NAME": "초대 실패",
+    "DESCRIPTION": "결국 친구는 오지 않았어요."
+  },
+  "BlueArchive_Hifumi:AngryAdeliesBlessing": {
+    "NAME": "앵그리 아델리 씨의 가호",
+    "DESCRIPTION": "카드로 주는 피해량이 버린 카드 더미 !M! 장당 1 증가합니다."
+  },
+  "BlueArchive_Hifumi:SiegeMode": {
+    "NAME": "시즈 모드",
+    "DESCRIPTION": "적 전체에 피해를 !D! 줍니다. NL 이 카드에 BlueArchive_Hifumi:포격을 부여합니다."
+  },
+  "BlueArchive_Hifumi:PleaseCrusaderChan": {
+    "NAME": "크루세이더 쨩, 부탁해요!",
+    "DESCRIPTION": "*2파운더 *고폭탄 카드를 1 장 얻습니다. NL 이번 전투동안 BlueArchive_Hifumi:포격 카드의 피해량과 방어도가 !M! 증가합니다."
+  },
+  "BlueArchive_Hifumi:PeroroBomb": {
+    "NAME": "페로로 폭탄",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 이번 전투동안 해당 적이 죽을 경우 모든 적에게 피해를 !M! 줍니다."
+  },
+  "BlueArchive_Hifumi:PerfectedPeroroStrike": {
+    "NAME": "완벽한 페로로 타격",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 보유 중인 카드 중 이름에 '페로로'가 포함된 카드 하나당 피해량이 !M! 증가합니다."
+  },
+  "BlueArchive_Hifumi:IncandescentEyes": {
+    "NAME": "백열안광",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 취약을 !M! 부여합니다. NL 이 카드를 사용할때마다 이번 전투동안 이 카드의 피해량과 취약이 !BlueArchive_Hifumi:M! 증가합니다."
+  },
+  "BlueArchive_Hifumi:RuinConstruction": {
+    "NAME": "공사다망",
+    "DESCRIPTION": "버린 카드 더미에 있는 BlueArchive_Hifumi:매설 카드를 전부 소멸합니다. NL 그 수만큼 적 전체에 피해를 !D! 줍니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      "번 공격합니다.)"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroTheForbiddenOne": {
+    "NAME": "봉인된 페로로의 조각",
+    "DESCRIPTION": "사용불가. NL BlueArchive_Hifumi:수집불가. 보존. NL 모든 *봉인된 카드를 모으면 소멸후 모든 적에게 피해를 !M! 주고 카드를 !BlueArchive_Hifumi:M! 장 뽑습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "이 카드는 사용할 수 없어.",
+      "사용불가. NL BlueArchive_Hifumi:수집불가. 보존.",
+      "봉인된 페로로의 몸통",
+      "봉인된 페로로의 왼쪽 팔",
+      "봉인된 페로로의 오른쪽 팔",
+      "봉인된 페로로의 왼쪽 다리",
+      "봉인된 페로로의 오른쪽 다리"
+    ]
+  },
+  "BlueArchive_Hifumi:AnotherMe": {
+    "NAME": "조립식 모델",
+    "DESCRIPTION": "버린 카드 더미에 *봉인된 *페로로의 *조각 카드 5종류를 넣습니다. NL *조각을 뽑을때마다 방어도를 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "선천성. NL 버린 카드 더미에 *봉인된 *페로로의 *조각 카드 5종류를 넣습니다. NL *조각을 뽑을때마다 방어도를 !M! 얻습니다."
+  },
+  "BlueArchive_Hifumi:RandomSwingStrike": {
+    "NAME": "이판사판 타격",
+    "DESCRIPTION": "이 카드가 BlueArchive_Hifumi:수집되면 이 카드를 1장 복사해 얻습니다. NL 피해를 !D! 줍니다."
+  },
+  "BlueArchive_Hifumi:FunnyFriendFantasy": {
+    "NAME": "친구 놀이",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 변화되거나 덱에서 제거될 시 무작위 BlueArchive_Hifumi:친구 카드를 덱에 추가합니다.",
+    "UPGRADE_DESCRIPTION": "피해를 !D! 줍니다. NL 변화되거나 덱에서 제거될 시 강화된 무작위 BlueArchive_Hifumi:친구 카드를 덱에 추가합니다."
+  },
+  "BlueArchive_Hifumi:FestivalGacha": {
+    "NAME": "페스 모집",
+    "DESCRIPTION": "버린 카드 더미를 전부 복사합니다. NL 소멸.",
+    "UPGRADE_DESCRIPTION": "보존. NL 버린 카드 더미를 전부 복사합니다. NL 소멸."
+  },
+  "BlueArchive_Hifumi:HifumiDaisuki": {
+    "NAME": "히후미 다이스키",
+    "DESCRIPTION": "카드가 버린 카드 더미에 보내질때마다 방어도를 !M! 얻습니다.",
+    "UPGRADE_DESCRIPTION": "선천성. NL 카드가 버린 카드 더미에 보내질때마다 방어도를 !M! 얻습니다."
+  },
+  "BlueArchive_Hifumi:ScooterCover": {
+    "NAME": "오토바이 엄폐",
+    "DESCRIPTION": "보존. NL 공격 카드를 사용하지않은 턴에만 사용가능합니다. NL 방어도를 !B! 얻습니다. NL 이번 턴 공격 카드를 사용할 수 없습니다.",
+    "EXTENDED_DESCRIPTION": [
+      "이미 공격카드를 사용했어."
+    ]
+  },
+  "BlueArchive_Hifumi:ChainExplosion": {
+    "NAME": "연쇄 폭발",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 버린 카드 더미에 있는 *연쇄 *폭발 카드 수 만큼 추가로 공격합니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      "번 공격합니다.)"
+    ]
+  },
+  "BlueArchive_Hifumi:FrameTrace": {
+    "NAME": "스쿠터 드리프트",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL *화염 *자취 카드를 !M! 장 얻습니다.",
+    "UPGRADE_DESCRIPTION":  "방어도를 !B! 얻습니다. NL *화염 *자취+ 카드를 !M! 장 얻습니다."
+  },
+  "BlueArchive_Hifumi:RingOfFire": {
+    "NAME": "화염 자취",
+    "DESCRIPTION": "사용불가. NL 보존. BlueArchive_Hifumi:매설. NL 공격 카드를 사용하면 그 피해량을 !M! 증가시킨 후 이 카드를 버립니다.",
+    "EXTENDED_DESCRIPTION": [
+      "이 카드는 사용할 수 없어."
+    ]
+  },
+  "BlueArchive_Hifumi:YouAreMine": {
+    "NAME": "넌 나의 것이에요!",
+    "DESCRIPTION": "약화와 취약을 !M! 부여합니다. NL 대상이 가진 모든 디버프 수치 합의 !BlueArchive_Hifumi:M! 배만큼 대상이 체력을 잃습니다. NL 소멸.",
+    "EXTENDED_DESCRIPTION": [
+      "넌 나의 것이에요!"
+    ]
+  },
+  "BlueArchive_Hifumi:BarbedFence": {
+    "NAME": "철조망",
+    "DESCRIPTION": "BlueArchive_Hifumi:매설. NL 적 전체에 피해를 !D! 주고 약화를 !M! 부여합니다. NL 이 카드가 버린 카드 더미에 보내지면 적 전체에 약화를 !BlueArchive_Hifumi:M! 부여합니다."
+  },
+  "BlueArchive_Hifumi:TrinityWarehouse": {
+    "NAME": "트리니티 비품 창고",
+    "DESCRIPTION": "BlueArchive_Hifumi:매설 카드를 BlueArchive_Hifumi:수집할 때마다 카드를 !M! 장 뽑습니다."
+  },
+  "BlueArchive_Hifumi:ItazuraStraight": {
+    "NAME": "장난스런 스트레이트",
+    "DESCRIPTION": "BlueArchive_Hifumi:친구. NL 사용시 뽑을 카드 더미에서 BlueArchive_Hifumi:수집불가가 아닌 1장을 골라 버린 카드 더미에 넣습니다. 턴 시작시 버린 카드 더미에서 그 카드를 BlueArchive_Hifumi:수집합니다.",
+    "UPGRADE_DESCRIPTION":  "BlueArchive_Hifumi:친구. 선천성. NL 사용시 뽑을 카드 더미에서 BlueArchive_Hifumi:수집불가가 아닌 1장을 골라 버린 카드 더미에 넣습니다. 턴 시작시 버린 카드 더미에서 그 카드를 BlueArchive_Hifumi:수집합니다."
+  },
+  "BlueArchive_Hifumi:LuckyPunch": {
+    "NAME": "럭키 펀치",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 전투가 끝날때 전투동안 한번도 사용하지않았다면 영구적으로 이 카드의 비용이 !M! 감소하고 사용했다면 다음 전투시 비용이 3 이 됩니다."
+  },
+  "BlueArchive_Hifumi:EvolvingPeroro": {
+    "NAME": "진화하는 페로로",
+    "DESCRIPTION": "피해를 !D! 줍니다. NL 치명타라면 전투가 끝난 후 무작위 강화 3 개중 하나를 선택하여 진화합니다. NL ( !M! 번 남음 )",
+    "EXTENDED_DESCRIPTION": [
+      "피해를 !D! 줍니다.",
+      "방어도를 !B! 얻습니다.",
+      "약화를 !BlueArchive_Hifumi:M! 부여합니다.",
+      "취약을 !BlueArchive_Hifumi:M! 부여합니다.",
+      "약화와 취약을 !BlueArchive_Hifumi:M! 부여합니다.",
+      "치명타 시 진화합니다.",
+      "NL ( !M! 번 남음 )",
+      "피해를 !D! 만큼 2번 줍니다.",
+      "피해를 !D! 만큼 3번 줍니다.",
+      "적 전체에 피해를 !D! 줍니다.",
+      "BlueArchive_Hifumi:포격.",
+      "적 전체에 약화를 !BlueArchive_Hifumi:M! 부여합니다.",
+      "적 전체에 취약을 !BlueArchive_Hifumi:M! 부여합니다.",
+      "적 전체에 약화와 취약을 !BlueArchive_Hifumi:M! 부여합니다.",
+      "소멸.",
+      "카드를 !BlueArchive_Hifumi:M2! 장 뽑습니다.",
+      "BlueArchive_Hifumi:수집 !BlueArchive_Hifumi:M2!.",
+      "보존.",
+      "*짝퉁 *굿즈 카드를 1장 얻습니다.",
+      "*짝퉁 *굿즈 카드를 2장 얻습니다.",
+      "BlueArchive_Hifumi:매설."
+    ]
+  },
+  "BlueArchive_Hifumi:CampOfDoll": {
+    "NAME": "인형의 진지",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 버린 카드 더미의 상태이상, 저주 하나당 추가로 방어도를 !M! 얻습니다."
+  },
+  "BlueArchive_Hifumi:PeroroLimitedEdition": {
+    "NAME": "한정품 페로로님",
+    "DESCRIPTION": "방어도를 !B! 얻습니다. NL 이 카드가 BlueArchive_Hifumi:수집된 턴에 사용하면 BlueArchive_Hifumi:페로로굿즈를 하나 선택해 효과를 발동합니다."
+  },
+  "BlueArchive_Hifumi:PerfectCollector": {
+    "NAME": "완벽한 수집가",
+    "DESCRIPTION": "BlueArchive_Hifumi:후천성. 보존. NL 이번 전투동안 BlueArchive_Hifumi:수집한 카드의 종류가 !BlueArchive_Hifumi:M! 장 이상일때 사용 가능합니다. NL 힘, 민첩을 !M! 얻습니다.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " 남았습니다.)",
+      "아직 사용할 수 없어."
+    ]
+  },
+  "BlueArchive_Hifumi:CarWash": {
+    "NAME": "장비 세척",
+    "DESCRIPTION": "버린 카드 더미의 카드 한 장을 선택합니다. NL 그 카드가 다음에 사용될때 2번 사용됩니다.",
+    "UPGRADE_DESCRIPTION": "버린 카드 더미의 카드 한 장을 선택합니다. NL 그 카드가 다음에 사용될때 2번 사용됩니다. NL BlueArchive_Hifumi:수집 !M!.",
+    "EXTENDED_DESCRIPTION": [
+      "",
+      "번 사용합니다."
+    ]
+  },
+  "BlueArchive_Hifumi:Wanted": {
+    "NAME": "현상수배",
+    "DESCRIPTION": "사용불가. NL 이 카드는 덱에서 제거할 수 없습니다. NL 이 카드가 BlueArchive_Hifumi:수집되면 새로운 *현상수배 카드를 영구히 덱에 추가합니다.",
+    "EXTENDED_DESCRIPTION": [
+      "이 카드는 사용할 수 없어."
+    ]
+  }
+}
