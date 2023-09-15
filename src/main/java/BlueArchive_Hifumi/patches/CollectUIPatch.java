@@ -74,9 +74,9 @@ public class CollectUIPatch {
                 expectCard.current_x = x_;
                 expectCard.current_y = y_;
                 expectCard.drawScale = 0.5f;
-                for(AbstractCardModifier m : CardModifierManager.modifiers(group_.group.get(i))) {
-                    CardModifierManager.addModifier(expectCard, m);
-                }
+                //for(AbstractCardModifier m : CardModifierManager.modifiers(group_.group.get(i))) {
+                //    CardModifierManager.addModifier(expectCard, m);
+                //}
 
                 y_ -= interval_;
                 expectCards.add(expectCard);
