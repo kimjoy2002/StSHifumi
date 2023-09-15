@@ -88,8 +88,10 @@ public class EvolvingPeroro extends AbstractDynamicCard implements CollectCard {
     private static String getImgPath(int level) {
         if(level <= 1)
             return IMG_WITHOUT_EXTENSION + EXTENSION;
-        else {
+        else if(level <= 6) {
             return IMG_WITHOUT_EXTENSION + level + EXTENSION;
+        } else {
+            return IMG_WITHOUT_EXTENSION + 6 + EXTENSION;
         }
     }
     public int expectCollect(){
@@ -317,7 +319,11 @@ public class EvolvingPeroro extends AbstractDynamicCard implements CollectCard {
         updateEvoveDescription();
         this.textureImg = getImgPath(level);
         if (textureImg != null) {
-            this.loadCardImage(textureImg);
+            try {
+                this.loadCardImage(textureImg);
+            } catch (Throwable ignore) {
+
+            }
         }
     }
 
