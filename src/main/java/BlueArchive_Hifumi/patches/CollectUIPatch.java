@@ -47,7 +47,7 @@ public class CollectUIPatch {
             if(teatime) {
                 group_ = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
                 for (AbstractCard c: AbstractDungeon.player.discardPile.group) {
-                    if(c.hasTag(EnumPatch.BURIED) || c.hasTag(EnumPatch.LEARNED)) {
+                    if((c.hasTag(EnumPatch.BURIED) || c.hasTag(EnumPatch.LEARNED)) && !c.hasTag(EnumPatch.NONCOLLECTABLE)) {
                         group_.addToTop(c);
                     }
                 }

@@ -78,52 +78,42 @@ public class BuriedCardPatch {
             method = "update"
     )
     public static class BuriedCardShuffle {
-        public static SpireReturn Prefix(EmptyDeckShuffleAction __instance) {
+
+        @SpireInsertPatch(
+                locator= Locator.class,
+                localvars = {"c"}
+        )
+        public static SpireReturn Insert(EmptyDeckShuffleAction __instance, @ByRef Iterator<AbstractCard>[] c_) {
             if(FieldPatcher.forCard.get(__instance) == true) {
                 return SpireReturn.Continue();
             }
-
-            boolean shuffled = (Boolean) ReflectionHacks.getPrivate(__instance, EmptyDeckShuffleAction.class, "shuffled");
-            if (!shuffled) {
-                ReflectionHacks.setPrivate(__instance, EmptyDeckShuffleAction.class, "shuffled", true);
-                AbstractDungeon.player.discardPile.shuffle(AbstractDungeon.shuffleRng);
-                __instance.amount = 0;
-            }
-            int count = (Integer) ReflectionHacks.getPrivate(__instance, EmptyDeckShuffleAction.class, "count");
-            boolean vfxDone = (Boolean) ReflectionHacks.getPrivate(__instance, EmptyDeckShuffleAction.class, "vfxDone");
-            if (!vfxDone) {
-                Iterator<AbstractCard> c = AbstractDungeon.player.discardPile.group.iterator();
-                for(int i = 0; i < __instance.amount; i++) {
-                    if(c.hasNext()){
-                        c.next();
+            if(c_ != null) {
+                Iterator<AbstractCard> test = AbstractDungeon.player.discardPile.group.iterator();
+                while(c_[0].hasNext() && test.hasNext()){
+                    AbstractCard testCard = (AbstractCard)test.next();
+                    if(testCard.hasTag(EnumPatch.BURIED)) {
+                        c_[0].next();
+                    } else{
+                        break;
                     }
                 }
-
-                if (c.hasNext()) {
-                    AbstractCard e = (AbstractCard)c.next();
-                     if(e.hasTag(EnumPatch.BURIED)) {
-                        __instance.amount++;
-                        return SpireReturn.Return();
-                    }
-
-                    ReflectionHacks.setPrivate(__instance, EmptyDeckShuffleAction.class, "count", ++count);
-
-                    c.remove();
-                    if (count < 11) {
-                        AbstractDungeon.getCurrRoom().souls.shuffle(e, false);
-                    } else {
-                        AbstractDungeon.getCurrRoom().souls.shuffle(e, true);
-                    }
-
+                if(c_[0].hasNext()) {
+                    return SpireReturn.Continue();
+                } else {
+                    ReflectionHacks.setPrivate(__instance, EmptyDeckShuffleAction.class, "vfxDone", true);
                     return SpireReturn.Return();
                 }
-
-                ReflectionHacks.setPrivate(__instance, EmptyDeckShuffleAction.class, "vfxDone", true);
             }
+            return SpireReturn.Continue();
+        }
 
-            __instance.isDone = true;
-            return SpireReturn.Return();
+        private static class Locator extends SpireInsertLocator {
+            public int[] Locate(CtBehavior ctMethodToPatch) throws Exception {
+                Matcher matcher = new Matcher.MethodCallMatcher(Iterator.class, "next");
+                return LineFinder.findInOrder(ctMethodToPatch, matcher);
+            }
         }
     }
+
 
 }
