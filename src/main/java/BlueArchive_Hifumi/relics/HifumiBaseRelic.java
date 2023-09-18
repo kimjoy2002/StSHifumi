@@ -10,6 +10,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.vfx.RainingGoldEffect;
 
 import static BlueArchive_Hifumi.DefaultMod.*;
 
@@ -19,6 +20,7 @@ public class HifumiBaseRelic extends CustomRelic {
     public static final String ID = DefaultMod.makeID("HifumiBaseRelic");
 
     public static final int AMOUNT = 1;
+    public static final int GOLD = 75;
 
     private static final Texture IMG = TextureLoader.getTexture(makeRelicPath("HifumiBaseRelic.png"));
     private static final Texture OUTLINE = TextureLoader.getTexture(makeRelicOutlinePath("HifumiBaseRelic.png"));
@@ -29,6 +31,8 @@ public class HifumiBaseRelic extends CustomRelic {
 
     public void atTurnStart() {
         if(!usedUp) {
+            AbstractDungeon.effectsQueue.add(new RainingGoldEffect(GOLD));
+            AbstractDungeon.player.gainGold(GOLD);
             AbstractDungeon.actionManager.addToBottom(new ObtainPeroroGoodsAction());
             this.flash();
             this.setCounter(-2);
@@ -46,6 +50,6 @@ public class HifumiBaseRelic extends CustomRelic {
     }
 
     public String getUpdatedDescription() {
-        return this.DESCRIPTIONS[0];
+        return this.DESCRIPTIONS[0] + GOLD + this.DESCRIPTIONS[1];
     }
 }

@@ -3,7 +3,8 @@
     "NAME": "Collector's Fighting Spirit",
     "FLAVOR": "\"What do I worry about? Being too average, I guess...\"",
     "DESCRIPTIONS": [
-      "At the start of the first combat, chooose and obtain #b1 common #ybluearchive_hifumi:PeroroGoods."
+      "At the start of the first combat, gain #b",
+      " #ygold, then chooose and obtain #b1 common #ybluearchive_hifumi:PeroroGoods."
     ]
   },
   "BlueArchive_Hifumi:HifumiBaseRelicPlus": {

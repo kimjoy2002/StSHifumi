@@ -33,7 +33,7 @@ public class PerfectCollector extends AbstractDynamicCard {
     private static final int COST = 1;
     private static final int MAGIC = 5;
     private static final int UPGRADE_PLUS_MAGIC = 3;
-    private static final int MAGIC2 = 7;
+    private static final int MAGIC2 = 6;
 
     public PerfectCollector() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);

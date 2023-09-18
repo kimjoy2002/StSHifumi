@@ -5,8 +5,10 @@ import BlueArchive_Hifumi.characters.Hifumi;
 import BlueArchive_Hifumi.patches.EnumPatch;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
+import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.actions.utility.WaitAction;
+import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -31,19 +33,17 @@ public class PeroroSmash extends AbstractDynamicCard {
 
     // STAT DECLARATION
 
-    private static final CardRarity RARITY = CardRarity.RARE;
-    private static final CardTarget TARGET = CardTarget.ALL_ENEMY;
+    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardTarget TARGET = CardTarget.ENEMY;
     private static final CardType TYPE = CardType.ATTACK;
     public static final CardColor COLOR = Hifumi.Enums.COLOR_YELLOW;
 
-    private static final int COST = 0;
+    private static final int COST = 1;
 
 
     public PeroroSmash() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
         this.baseDamage = 0;
-        this.exhaust = true;
-        this.isMultiDamage = true;
         this.tags.add(EnumPatch.PERORO);
     }
 
@@ -53,7 +53,14 @@ public class PeroroSmash extends AbstractDynamicCard {
         }
         this.addToBot(new WaitAction(0.8F));
 
-        this.addToBot(new DamageAllEnemiesAction(p, this.multiDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.NONE));
+        if(upgraded) {
+            this.addToBot(new DamageAllEnemiesAction(p, this.multiDamage, this.damageTypeForTurn, AbstractGameAction.AttackEffect.NONE));
+        } else {
+            this.addToBot(
+                    new DamageAction(m, new DamageInfo(p, damage, damageTypeForTurn),
+                            AbstractGameAction.AttackEffect.BLUNT_HEAVY));
+        }
+
         this.rawDescription = (upgraded?cardStrings.UPGRADE_DESCRIPTION:cardStrings.DESCRIPTION);
         this.initializeDescription();
     }
@@ -75,7 +82,8 @@ public class PeroroSmash extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            this.selfRetain = true;
+            this.isMultiDamage = true;
+            this.target = CardTarget.ALL_ENEMY;
             this.rawDescription = cardStrings.UPGRADE_DESCRIPTION;
             initializeDescription();
         }

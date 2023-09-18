@@ -18,7 +18,7 @@ import static BlueArchive_Hifumi.DefaultMod.makeRelicPath;
 public class UncommonPeroroBlockRelic extends CustomRelic implements PeroroGoodsRelic {
     public static final String ID = DefaultMod.makeID("UncommonPeroroBlockRelic");
 
-    public static final int AMOUNT = 7;
+    public static final int AMOUNT = 6;
     public static final int AMOUNT_PLUS = 2;
     public int val = AMOUNT;
     public int temp_count = 0;

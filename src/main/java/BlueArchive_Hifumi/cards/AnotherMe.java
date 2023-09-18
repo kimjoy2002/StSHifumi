@@ -29,7 +29,7 @@ public class AnotherMe extends AbstractDynamicCard {
     public static final CardColor COLOR = Hifumi.Enums.COLOR_YELLOW;
 
     private static final int COST = 1;
-    private static final int MAGIC = 5;
+    private static final int MAGIC = 8;
 
 
 
