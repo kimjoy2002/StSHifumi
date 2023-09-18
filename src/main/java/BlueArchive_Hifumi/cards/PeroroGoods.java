@@ -62,16 +62,19 @@ public class PeroroGoods extends AbstractDynamicCard {
     }
 
     public void afterInit() {
+    if(relic !=null) {
+            this.portrait = new TextureAtlas.AtlasRegion(relic.img, 0, 0, relic.img.getWidth(), relic.img.getHeight());
 
-        this.portrait = new TextureAtlas.AtlasRegion(relic.img, 0, 0, relic.img.getWidth(), relic.img.getHeight());
 
-
-        if(relic instanceof PeroroGoodsRelic) {
-            magicNumber = baseMagicNumber = ((PeroroGoodsRelic)relic).getMagic(add>0?add:0);
-            secondMagicNumber = baseSecondMagicNumber  = ((PeroroGoodsRelic)relic).getMagic2(add>0?add:0);
-            this.rawDescription = cardStrings.EXTENDED_DESCRIPTION[((PeroroGoodsRelic)relic).getIndex()];
-            initializeDescription();
+            if (relic instanceof PeroroGoodsRelic) {
+                magicNumber = baseMagicNumber = ((PeroroGoodsRelic) relic).getMagic(add > 0 ? add : 0);
+                secondMagicNumber = baseSecondMagicNumber = ((PeroroGoodsRelic) relic).getMagic2(add > 0 ? add : 0);
+                this.rawDescription = cardStrings.EXTENDED_DESCRIPTION[((PeroroGoodsRelic) relic).getIndex()];
+                initializeDescription();
+            }
         }
+
+
     }
 
 
