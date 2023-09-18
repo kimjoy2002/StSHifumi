@@ -62,8 +62,8 @@
   },
   "BlueArchive_Hifumi:PeroroSmash": {
     "NAME": "Peroro Smash",
-    "DESCRIPTION": "Deal damage to ALL enemies equal to the number of cards in your discard pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Deal damage to ALL enemies equal to the number of cards in your discard pile. NL Exhaust.",
+    "DESCRIPTION": "Deal damage equal to the number of cards in your discard pile.",
+    "UPGRADE_DESCRIPTION": "Deal damage to ALL enemies equal to the number of cards in your discard pile.",
     "EXTENDED_DESCRIPTION": [
       " NL (Deal !D! damage.)"
     ]

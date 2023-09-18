@@ -2,14 +2,12 @@ package BlueArchive_Hifumi.powers;
 
 import BlueArchive_Hifumi.DefaultMod;
 import BlueArchive_Hifumi.actions.BetrayerAction;
-import BlueArchive_Hifumi.actions.CollectSelectAction;
+import BlueArchive_Hifumi.characters.Hifumi;
 import BlueArchive_Hifumi.util.TextureLoader;
 import basemod.interfaces.CloneablePowerInterface;
-import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.megacrit.cardcrawl.cards.AbstractCard;
-import com.megacrit.cardcrawl.cards.CardGroup;
+import com.esotericsoftware.spine.AnimationState;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -17,7 +15,6 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
 import static BlueArchive_Hifumi.DefaultMod.makePowerPath;
-import static com.megacrit.cardcrawl.cards.CardGroup.CardGroupType.UNSPECIFIED;
 
 public class BetrayerPower extends AbstractPower implements CloneablePowerInterface {
     public AbstractCreature source;
@@ -44,9 +41,25 @@ public class BetrayerPower extends AbstractPower implements CloneablePowerInterf
         this.region128 = new TextureAtlas.AtlasRegion(tex84, 0, 0, 84, 84);
         this.region48 = new TextureAtlas.AtlasRegion(tex32, 0, 0, 32, 32);
 
+        if(AbstractDungeon.player instanceof Hifumi) {
+            AbstractDungeon.player.state.setAnimation(0, "base_animation_paust", true);
+        }
         updateDescription();
     }
 
+    public void onVictory() {
+        if(AbstractDungeon.player instanceof Hifumi) {
+            AnimationState.TrackEntry e = AbstractDungeon.player.state.setAnimation(0, "offHead", false);
+            AbstractDungeon.player.state.addAnimation(0, "base_animation", true, e.getEndTime());
+        }
+    }
+
+    public void onRemove() {
+        if(AbstractDungeon.player instanceof Hifumi) {
+            AnimationState.TrackEntry e = AbstractDungeon.player.state.setAnimation(0, "offHead", false);
+            AbstractDungeon.player.state.addAnimation(0, "base_animation", true, e.getEndTime());
+        }
+    }
 
     public void atStartOfTurnPostDraw() {
         AbstractDungeon.actionManager.addToBottom(new BetrayerAction(amount));
