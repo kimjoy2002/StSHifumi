@@ -443,7 +443,7 @@
   },
   "BlueArchive_Hifumi:PerfectCollector": {
     "NAME": "Perfect Collector",
-    "DESCRIPTION": "BlueArchive_Hifumi:Grave. Retain. NL Can be used when there are 7 or more kinds of cards collected during this combat. NL Gain !M! Strength and Dexterity.",
+    "DESCRIPTION": "BlueArchive_Hifumi:Grave. Retain. NL Can be used when there are !BlueArchive_Hifumi:M! or more kinds of cards collected during this combat. NL Gain !M! Strength and Dexterity.",
     "EXTENDED_DESCRIPTION": [
       " NL (",
       " left.)",
