@@ -8,6 +8,7 @@ import basemod.helpers.CardModifierManager;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.GraveField;
 import com.evacipated.cardcrawl.modthespire.lib.*;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
@@ -47,7 +48,7 @@ public class CollectUIPatch {
             if(teatime) {
                 group_ = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
                 for (AbstractCard c: AbstractDungeon.player.discardPile.group) {
-                    if((c.hasTag(EnumPatch.BURIED) || c.hasTag(EnumPatch.LEARNED)) && !c.hasTag(EnumPatch.NONCOLLECTABLE)) {
+                    if((c.hasTag(EnumPatch.BURIED) || c.hasTag(EnumPatch.LEARNED) || GraveField.grave.get(c)) && !c.hasTag(EnumPatch.NONCOLLECTABLE)) {
                         group_.addToTop(c);
                     }
                 }

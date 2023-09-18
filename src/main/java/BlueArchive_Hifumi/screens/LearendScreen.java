@@ -8,6 +8,7 @@ import basemod.abstracts.CustomScreen;
 import basemod.helpers.CardModifierManager;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.GraveField;
 import com.evacipated.cardcrawl.modthespire.lib.SpireEnum;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
@@ -80,7 +81,7 @@ public class LearendScreen extends CustomScreen {
             while(var5.hasNext()) {
                 AbstractCard c = (AbstractCard)var5.next();
 
-                if (!c.hasTag(EnumPatch.LEARNED)) {
+                if (!c.hasTag(EnumPatch.LEARNED) && !GraveField.grave.get(c)) {
                     tmp.addToBottom(c);
                 }
             }

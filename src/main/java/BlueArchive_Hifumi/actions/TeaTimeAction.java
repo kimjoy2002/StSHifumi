@@ -1,6 +1,7 @@
 package BlueArchive_Hifumi.actions;
 
 import BlueArchive_Hifumi.patches.EnumPatch;
+import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.GraveField;
 import com.evacipated.cardcrawl.modthespire.lib.SpireReturn;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -51,7 +52,7 @@ public class TeaTimeAction extends AbstractGameAction {
 
             if (c.hasNext()) {
                 AbstractCard e = (AbstractCard)c.next();
-                if(e.hasTag(EnumPatch.BURIED) || e.hasTag(EnumPatch.LEARNED)) {
+                if(e.hasTag(EnumPatch.BURIED) || e.hasTag(EnumPatch.LEARNED) || GraveField.grave.get(e)) {
                     amount++;
                     return;
                 }

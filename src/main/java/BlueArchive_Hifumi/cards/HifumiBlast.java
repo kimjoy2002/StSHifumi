@@ -4,6 +4,8 @@ import BlueArchive_Hifumi.DefaultMod;
 import BlueArchive_Hifumi.actions.CollectAction;
 import BlueArchive_Hifumi.characters.Hifumi;
 import BlueArchive_Hifumi.patches.EnumPatch;
+import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.GraveField;
+import com.evacipated.cardcrawl.mod.stslib.patches.GravePatch;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
@@ -59,7 +61,7 @@ public class HifumiBlast extends AbstractDynamicCard {
     public void applyPowers() {
         int count = 0;
         for(AbstractCard c : AbstractDungeon.player.discardPile.group) {
-            if(c.hasTag(EnumPatch.LEARNED)) {
+            if(c.hasTag(EnumPatch.LEARNED) || GraveField.grave.get(c)) {
                 count++;
             }
         }

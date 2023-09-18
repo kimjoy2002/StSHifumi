@@ -2,6 +2,7 @@ package BlueArchive_Hifumi.actions;
 
 import BlueArchive_Hifumi.patches.EnumPatch;
 import com.evacipated.cardcrawl.mod.stslib.actions.tempHp.AddTemporaryHPAction;
+import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.GraveField;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -18,7 +19,7 @@ public class PeroroCoverAction extends AbstractGameAction {
     public int getLearnedCard() {
         int count = 0;
         for(AbstractCard card : AbstractDungeon.player.discardPile.group) {
-            if(card.hasTag(EnumPatch.LEARNED)) {
+            if(card.hasTag(EnumPatch.LEARNED) || GraveField.grave.get(card)) {
                 count++;
             }
         }

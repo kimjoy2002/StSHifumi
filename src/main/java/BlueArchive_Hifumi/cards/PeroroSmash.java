@@ -50,6 +50,24 @@ public class PeroroSmash extends AbstractDynamicCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         if (m != null) {
             this.addToBot(new VFXAction(new WeightyImpactEffect(m.hb.cX, m.hb.cY)));
+        } else {
+            float x_  = 0;
+            float y_  = 0;
+            int count = 0;
+            for(AbstractMonster mon_ : AbstractDungeon.getCurrRoom().monsters.monsters) {
+                if(!mon_.isDying && mon_.currentHealth > 0 && !mon_.isEscaping) {
+                    x_ += mon_.hb.cX;
+                    y_ += mon_.hb.cY;
+                    count++;
+                }
+
+            }
+            if(count > 0) {
+                x_ /= count;
+                y_ /= count;
+
+                this.addToBot(new VFXAction(new WeightyImpactEffect(x_, y_)));
+            }
         }
         this.addToBot(new WaitAction(0.8F));
 
