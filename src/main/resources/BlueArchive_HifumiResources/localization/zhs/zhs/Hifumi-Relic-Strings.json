@@ -1,0 +1,171 @@
+{
+  "BlueArchive_Hifumi:HifumiBaseRelic": {
+    "NAME": "收藏家的战斗精神",
+    "FLAVOR": " \" 我在担心什么呢？或许是因为我太平凡了吧... \" ",
+    "DESCRIPTIONS": [
+      "第一场战斗开始时，获得 #b",
+      " #y金币 ，并选择获取 #b1 件普通 #ybluearchive_hifumi:佩洛洛周边 。"
+    ]
+  },
+  "BlueArchive_Hifumi:HifumiBaseRelicPlus": {
+    "NAME": "收藏家的战斗精神+",
+    "FLAVOR": " \" 轮到佩洛洛大人的回合了！ \" ",
+    "DESCRIPTIONS": [
+      "替换 #r收藏家的战斗精神 。 每前进 #b",
+      " 层，随机获取 #b1 件普通 #ybluearchive_hifumi:佩洛洛周边 。"
+    ]
+  },
+  "BlueArchive_Hifumi:ReisaRelic": {
+    "NAME": "玲纱的挑战信",
+    "FLAVOR": " \" 请收下这封挑战信！ \" ",
+    "DESCRIPTIONS": [
+      "每回合开始时获得 [E] 。拾起时，移除牌组中所有 #ybluearchive_hifumi:朋友 牌。不能再获得任何 #ybluearchive_hifumi:朋友 牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:MomoFreiendsSpecialTeapotRelic": {
+    "NAME": "MOMO朋友特制茶壶",
+    "FLAVOR": "日富美购置的茶壶，说是驾驶坦克看海的必备品。",
+    "DESCRIPTIONS": [
+      "拾起时，将所有 #y打击 和 #y防御 #b转化 为带有 #ybluearchive_hifumi:炮火 属性的 #y2磅高爆弹 和 #yFlaK40 ，保留 #y升级 状态。",
+      "获取牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:CommonPeroroBlockRelic": {
+    "NAME": "佩洛洛背包",
+    "FLAVOR": "非常宽大的背包，即使在非佩洛洛粉丝群体中也很受欢迎。",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:佩洛洛周边 。使用时，获得 #g",
+      " (每层 #g+",
+      " )点 #y格挡 。"
+    ]
+  },
+  "BlueArchive_Hifumi:CommonPeroroMultiDamageRelic": {
+    "NAME": "佩洛洛防烫手套",
+    "FLAVOR": "流传说戴上它会突然想跳一种奇怪的舞蹈。",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:佩洛洛周边 。使用时，对所有敌人造成 #g",
+      " (每层 #g+",
+      " )点伤害。"
+    ]
+  },
+  "BlueArchive_Hifumi:CommonPeroroDamageRelic": {
+    "NAME": "佩洛洛羽毛",
+    "FLAVOR": "这片羽毛的来源是MOMO朋友之间最高商业机密。",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:佩洛洛周边 。使用时，对生命值最低的敌人造成 #g",
+      " (每层 #g+",
+      " )点伤害。"
+    ]
+  },
+  "BlueArchive_Hifumi:UncommonPeroroBlockRelic": {
+    "NAME": "佩洛洛投影",
+    "FLAVOR": "一件发出佩洛洛全息投影的设备。只是看着它就让人恼火。",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:佩洛洛周边 。使用时，召唤一只每回合结束时获得 #g",
+      " (每层 #g+",
+      " )点 #y格挡 的 #y队友 。如果已经存在同名 #y队友 ，则将层数提高 #g1 层。"
+    ]
+  },
+  "BlueArchive_Hifumi:UncommonPeroroSpecialRelic": {
+    "NAME": "佩洛洛靠垫",
+    "FLAVOR": "翅膀的部分特别柔软。",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:佩洛洛周边 。使用时，抽 #g",
+      " (每层 #g+",
+      " )张牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:UncommonPeroroDamageRelic": {
+    "NAME": "佩洛洛龙",
+    "FLAVOR": "不是 \" 畸形龙 \" ， 是 \" 鸡形龙 \" 。",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:佩洛洛周边 。 使用时，对随机敌人造成 #g",
+      " 点伤害。每触发一次，此遗物在本场战斗中的伤害提高 #g",
+      " (每层 #g+",
+      " )点。"
+    ]
+  },
+  "BlueArchive_Hifumi:RarePeroroBlockRelic": {
+    "NAME": "忍者佩洛",
+    "FLAVOR": "忍者角色周边，在旋涡电影村好评特卖中。",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:佩洛洛周边 。使用时获得 #g",
+      " 层 #y无实体 ，并将此遗物层数在本场战斗中降低 #r1 层。"
+    ]
+  },
+  "BlueArchive_Hifumi:RarePeroroEnergyRelic": {
+    "NAME": "佩洛洛博士",
+    "FLAVOR": "佩洛洛学得太多，有点精神失常了。",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:佩洛洛周边 。使用时，获得",
+      " [E]",
+      " (每层额外获得 [E] )。 "
+    ]
+  },
+  "BlueArchive_Hifumi:RarePeroroDamageRelic": {
+    "NAME": "佩洛洛斯拉",
+    "FLAVOR": " \" 你的身份暴露了，人类的叛徒！ \" ",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:佩洛洛周边 。 使用时，召唤一只回合结束时对所有敌人造成 #g",
+      " (每层 #g+",
+      " ) 点伤害的 #y队友 。如果已经存在同名 #y队友 ，则将层数提高 #g1 层。"
+    ]
+  },
+  "BlueArchive_Hifumi:BottledPeroro": {
+    "NAME": "瓶装佩洛洛",
+    "FLAVOR": "限定版产品，由工匠小心翼翼地在瓶子里组装佩洛洛模型而制成。",
+    "DESCRIPTIONS": [
+      "拾起时，选择一张牌，每场战斗开始时，将这张牌的复制放入弃牌堆。",
+      "战斗开始时，将 ",
+      " 的复制放入弃牌堆。",
+      "",
+      " :选择战斗开始时要复制的牌"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroMembershipCardRelic": {
+    "NAME": "佩洛洛VIP卡",
+    "FLAVOR": "这张卡是为经常购买佩洛洛周边的VIP会员而准备的。",
+    "DESCRIPTIONS": [
+      "在佩洛洛商店中的普通扭蛋花费固定为 #b",
+      " #y金币 。"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroCoverRelic": {
+    "NAME": "佩洛洛手机壳",
+    "FLAVOR": "印有MOMO朋友的吉祥物——佩洛洛的脸的智能手机外壳。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得等同于牌组中 #ybluearchive_hifumi:墓地 牌数量的 #ybluearchive_hifumi:临时 生命。"
+    ]
+  },
+  "BlueArchive_Hifumi:DangerousSwimsuitRelic": {
+    "NAME": "危险的泳装",
+    "FLAVOR": " \" 我需要更酷的...能让我脱颖而出的东西。 \" - 日富美。",
+    "DESCRIPTIONS": [
+      "第二个回合开始时， #ybluearchive_hifumi:收藏 #b",
+      " 。"
+    ]
+  },
+  "BlueArchive_Hifumi:UnidentifiedBagRelic": {
+    "NAME": "不明大包",
+    "FLAVOR": "某人临时存放在格黑娜的包。",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:埋藏 牌的伤害和 #y格挡 数值提升 #b",
+      " 点。"
+    ]
+  },
+  "BlueArchive_Hifumi:FigureStorageRelic": {
+    "NAME": "手办橱柜",
+    "FLAVOR": "能让你的手办宛如一新的必备品。",
+    "DESCRIPTIONS": [
+      "战斗开始时，随机一个现有的 #ybluearchive_hifumi:佩洛洛周边 层数提高 #b",
+      " 层。"
+    ]
+  },
+  "BlueArchive_Hifumi:TwinPeroroRelic": {
+    "NAME": "双头佩洛洛",
+    "FLAVOR": "据说是由两只佩洛洛龙融合而成的。",
+    "DESCRIPTIONS": [
+      " #ybluearchive_hifumi:佩洛洛周边 。只有在拥有 #g3 种以上其他 #ybluearchive_hifumi:佩洛洛周边 时才能使用。使用时，随机触发 #g2 次其他 #ybluearchive_hifumi:佩洛洛周边 的效果。"
+    ]
+  }
+}

@@ -1,0 +1,469 @@
+{
+  "BlueArchive_Hifumi:HifumiStrike": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "BlueArchive_Hifumi:HifumiDefend": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点 格挡 。"
+  },
+  "BlueArchive_Hifumi:HelpMePeroroSama": {
+    "NAME": "帮帮我，佩洛洛！",
+    "DESCRIPTION": "选择 bluearchive_hifumi:佩洛洛周边 并触发其效果。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 选择 bluearchive_hifumi:佩洛洛周边 并触发其效果。"
+  },
+  "BlueArchive_Hifumi:Organized": {
+    "NAME": "整理",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 丢弃 !M! 张牌。 NL bluearchive_hifumi:收藏 !M! 。"
+  },
+  "BlueArchive_Hifumi:CollectorsSpirit": {
+    "NAME": "收藏家精神",
+    "DESCRIPTION": " bluearchive_hifumi:收藏 !M! 。"
+  },
+  "BlueArchive_Hifumi:SwingBag": {
+    "NAME": "背包挥击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL bluearchive_hifumi:收藏 !M! 。"
+  },
+  "BlueArchive_Hifumi:SlowStarter": {
+    "NAME": "慢启动",
+    "DESCRIPTION": " bluearchive_hifumi:墓地 。 NL 造成 !D! 点伤害。"
+  },
+  "BlueArchive_Hifumi:PeroroCoin": {
+    "NAME": "佩洛洛硬币",
+    "DESCRIPTION": " bluearchive_hifumi:墓地 。 不能被打出 。 NL 每当这张牌被 bluearchive_hifumi:收藏 ，获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "BlueArchive_Hifumi:墓地 。 不能被打出 。 NL 每当这张牌被 bluearchive_hifumi:收藏 ，获得 [E] [E] 。",
+    "EXTENDED_DESCRIPTION": [
+      "这张卡不能被打出。"
+    ]
+  },
+  "BlueArchive_Hifumi:Mine": {
+    "NAME": "地雷",
+    "DESCRIPTION": " bluearchive_hifumi:埋藏 。 NL 造成 !D! 点伤害。"
+  },
+  "BlueArchive_Hifumi:Propagation": {
+    "NAME": "展示",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL bluearchive_hifumi:收藏 !M! 。 NL 升级 bluearchive_hifumi:收藏 的牌。"
+  },
+  "BlueArchive_Hifumi:WavecatCushion": {
+    "NAME": "波浪猫坐垫",
+    "DESCRIPTION": " bluearchive_hifumi:墓地 。 NL 被打出或 bluearchive_hifumi:收藏 时，获得 !B! 点格挡。"
+  },
+  "BlueArchive_Hifumi:SealedStorage": {
+    "NAME": "密封存储",
+    "DESCRIPTION": "将最多 !M! 张牌从弃牌堆洗入抽牌堆。 NL 获得等同于洗入数量的 格挡 。",
+    "UPGRADE_DESCRIPTION": "将最多 !M! 张牌从弃牌堆洗入抽牌堆。 NL 获得等同于洗入数量两倍的 格挡 。"
+  },
+  "BlueArchive_Hifumi:HifumiBlast": {
+    "NAME": "日富美震慑",
+    "DESCRIPTION": " 固有 。 NL 弃牌堆中每有一张 bluearchive_hifumi:墓地 牌，造成7点伤害。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (造成 !D! 点伤害。)"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroSmash": {
+    "NAME": "佩洛洛压杀",
+    "DESCRIPTION": "造成等同于弃牌堆牌数的伤害。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成等同于弃牌堆牌数的伤害。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (造成 !D! 点伤害。)"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroBargainSale": {
+    "NAME": "佩洛洛批发",
+    "DESCRIPTION": "选择一件普通 bluearchive_hifumi:佩洛洛周边 ，将其层数在本场战斗中提高1层。 NL 触发所选的 bluearchive_hifumi:佩洛洛周边 的效果。"
+  },
+  "BlueArchive_Hifumi:PerorosBlow": {
+    "NAME": "佩洛洛吹飞",
+    "DESCRIPTION": " bluearchive_hifumi:墓地 。 bluearchive_hifumi:埋藏 。 NL 对所有敌人造成 !D! 点伤害。"
+  },
+  "BlueArchive_Hifumi:NimbleCollector": {
+    "NAME": "机敏的收藏家",
+    "DESCRIPTION": " bluearchive_hifumi:不可收藏 。 NL 弃牌堆中每有 !M! 张牌，获得 [E] 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (获得 ",
+      " [E] 。)"
+    ]
+  },
+  "BlueArchive_Hifumi:PerorosamasSupport": {
+    "NAME": "佩洛洛的援护",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 施加等同于造成未被格挡伤害数值层数的 虚弱 。"
+  },
+  "BlueArchive_Hifumi:PassionateCollector": {
+    "NAME": "狂热收藏家",
+    "DESCRIPTION": "每当 bluearchive_hifumi:收藏 时，获得 !M! 点 格挡 。"
+  },
+  "BlueArchive_Hifumi:Minefield": {
+    "NAME": "地雷阵",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将 !M! 张 *地雷 加入弃牌堆。",
+    "EXTENDED_DESCRIPTION": [" bluearchive_hifumi:埋藏 "]
+  },
+  "BlueArchive_Hifumi:Bunker": {
+    "NAME": "地堡",
+    "DESCRIPTION": " bluearchive_hifumi:埋藏 。 NL 获得 !B! 点 格挡 。"
+  },
+  "BlueArchive_Hifumi:Labeling": {
+    "NAME": "标记",
+    "DESCRIPTION": "回合开始时，选择弃牌堆中最多1张牌，将其放在顶部。 NL (弃牌堆底部的牌会优先被 bluearchive_hifumi:收藏 。)"
+  },
+  "BlueArchive_Hifumi:Spadework": {
+    "NAME": "坦克装填",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 将 !M! 张 *2磅高爆弹 加入手牌。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 将 !M! 张 *2磅高爆弹+ 加入手牌。",
+    "EXTENDED_DESCRIPTION": [" bluearchive_hifumi:炮火 "]
+  },
+  "BlueArchive_Hifumi:TeaTime": {
+    "NAME": "茶点时间",
+    "DESCRIPTION": "将弃牌堆中所有不带 bluearchive_hifumi:墓地 和 bluearchive_hifumi:埋藏 属性的牌洗入抽牌堆。 NL bluearchive_hifumi:收藏 !M! 。 NL 消耗 。"
+  },
+  "BlueArchive_Hifumi:LearnedAttack": {
+    "NAME": "佩洛洛课堂",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 斩杀时，战斗后可以选择牌组中一张牌添加 bluearchive_hifumi:墓地 属性。 NL 消耗 。"
+  },
+  "BlueArchive_Hifumi:BetrayerForm": {
+    "NAME": "浮士德形态",
+    "DESCRIPTION": "回合开始时，弃牌堆中 !M! 张随机牌的耗能在打出前变为0。"
+  },
+  "BlueArchive_Hifumi:Vigil": {
+    "NAME": "等候线",
+    "DESCRIPTION": "这张牌每被 bluearchive_hifumi:收藏 一次，其在本场战斗中的耗能就降低1点。 NL 造成 !D! 点伤害。"
+  },
+  "BlueArchive_Hifumi:SecondhandTrade": {
+    "NAME": "二手交易",
+    "DESCRIPTION": "选择抽牌堆1张牌添加 bluearchive_hifumi:埋藏 属性，并将其放入弃牌堆。 NL 抽 !M! 张牌。"
+  },
+  "BlueArchive_Hifumi:ThreeDPrinter": {
+    "NAME": "3D打印机",
+    "DESCRIPTION": "选择弃牌堆中一张牌，将 !M! 张复制品加入弃牌堆。 NL 抽 !BlueArchive_Hifumi:M! 张牌。"
+  },
+  "BlueArchive_Hifumi:AhahaAuu": {
+    "NAME": "啊哈哈...",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果敌人有 虚弱 ，施加 !M! 层 易伤 ， NL 如果敌人有 易伤 ，施加 !M! 层 虚弱 。"
+  },
+  "BlueArchive_Hifumi:PeroroOmamori": {
+    "NAME": "佩洛洛御守",
+    "DESCRIPTION": " 不能被打出 。 bluearchive_hifumi:不可收藏 。 NL 当这张牌在弃牌堆时，获得 !M! 点 敏捷 。",
+    "UPGRADE_DESCRIPTION": " bluearchive_hifumi:埋藏 。 NL 不能被打出 。 bluearchive_hifumi:不可收藏 。 NL 当这张牌在弃牌堆时，获得 !M! 点 敏捷 。",
+    "EXTENDED_DESCRIPTION": [
+      "不能打出这张牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:HugMe": {
+    "NAME": "抱抱我",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 目标在每回合开始时受到 !M! 点伤害。"
+  },
+  "BlueArchive_Hifumi:PeroroGoods": {
+    "NAME": "佩洛洛周边",
+    "DESCRIPTION": "触发 bluearchive_hifumi:佩洛洛周边 的效果。",
+    "EXTENDED_DESCRIPTION": [
+      "获得 !M! 点 格挡 。",
+      "对生命值最低的敌人造成 !M! 点伤害。",
+      "对所有敌人造成 !M! 点伤害。",
+      "召唤一只回合结束时获得 !M! 点 格挡 的 *全息投影 。如果已经存在 *全息投影 ，提高每回合获得的 格挡 值 !BlueArchive_Hifumi:M! 点。",
+      "造成 !M! 点伤害。 NL 造成的伤害在本场战斗中提高 !BlueArchive_Hifumi:M! 点。",
+      "抽 !M! 张牌。",
+      "获得 !M! 层 无实体 。 NL 本场战斗中 *忍者佩洛 的层数降低1层。",
+      "召唤一只回合结束时对所有敌人造成 !M! 点伤害的 *佩洛洛斯拉 。如果已经存在 *佩洛洛斯拉, 提高每回合造成的伤害值 !BlueArchive_Hifumi:M! 点。",
+      "获得 !M! [E] 。",
+      "随机触发其他2种 bluearchive_hifumi:佩洛洛周边 的效果。"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroTicketUncommon": {
+    "NAME": "佩洛洛银券",
+    "DESCRIPTION": " 不能被打出 。 NL 凭这张牌可在佩洛洛商店兑换2只随机普通 bluearchive_hifumi:佩洛洛周边 。 NL 无法被升级。",
+    "EXTENDED_DESCRIPTION": [
+      "不能打出这张牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroTicketRare": {
+    "NAME": "佩洛洛金券",
+    "DESCRIPTION": " 不能被打出 。 NL 凭这张牌可在佩洛洛商店兑换1只随机稀有 bluearchive_hifumi:佩洛洛周边 。 NL 无法被升级。",
+    "EXTENDED_DESCRIPTION": [
+      "不能打出这张牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:MomoFriend": {
+    "NAME": "MOMO朋友",
+    "DESCRIPTION": "选择一件 bluearchive_hifumi:佩洛洛周边 ， NL 回合开始时，触发所选 bluearchive_hifumi:佩洛洛周边 的效果。"
+  },
+  "BlueArchive_Hifumi:BadAccident": {
+    "NAME": "意外",
+    "DESCRIPTION": "选择一件 bluearchive_hifumi:佩洛洛周边 ， NL 触发其效果 !M! 次。本场战斗不能再使用这件周边。 NL 消耗 。"
+  },
+  "BlueArchive_Hifumi:PeroroFestival": {
+    "NAME": "佩洛洛庆典",
+    "DESCRIPTION": "随机使用所有 bluearchive_hifumi:佩洛洛周边 的效果。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "随机使用所有 bluearchive_hifumi:佩洛洛周边 的效果。"
+  },
+  "BlueArchive_Hifumi:WhyBeginners": {
+    "NAME": "业余时间",
+    "DESCRIPTION": "每有一种 bluearchive_hifumi:佩洛洛周边 ，造成 !D! 点伤害。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (攻击 ",
+      " 次。)"
+    ]
+  },
+  "BlueArchive_Hifumi:Ordinary": {
+    "NAME": "平凡",
+    "DESCRIPTION": " 保留 。 NL 选择弃牌堆最多 !M! 张牌，为其添加 bluearchive_hifumi:不可收藏 和 bluearchive_hifumi:埋藏 属性。 NL 消耗 。"
+  },
+  "BlueArchive_Hifumi:SagittaMortis": {
+    "NAME": "死亡之矢",
+    "DESCRIPTION": " bluearchive_hifumi:朋友 。 NL 施加 !M! 层 易伤 ，将一张 *死亡招来 洗入抽牌堆。 NL 消耗 。"
+  },
+  "BlueArchive_Hifumi:IntulitMortem": {
+    "NAME": "死亡招来",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 额外造成目标 易伤 层数的伤害。"
+  },
+  "BlueArchive_Hifumi:HolyHandGrenade": {
+    "NAME": "神圣手雷",
+    "DESCRIPTION": " bluearchive_hifumi:朋友 。 NL 造成 !D! 点伤害 NL 或 NL 回复自身 !M! 点生命。 NL 消耗 。"
+  },
+  "BlueArchive_Hifumi:CastOff": {
+    "NAME": "抛弃",
+    "DESCRIPTION": " bluearchive_hifumi:朋友 。 NL 获得 [E] [E] 。 抽 !M! 张牌。移除自身全部 格挡 值。 本回合无法从卡牌中获得 格挡 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " bluearchive_hifumi:朋友 。 NL 获得 [E] [E] [E] 。 抽 !M! 张牌。移除自身全部 格挡 值。 本回合无法从卡牌中获得 格挡 。 NL 消耗 。"
+  },
+  "BlueArchive_Hifumi:FakePeroro": {
+    "NAME": "赝品",
+    "DESCRIPTION": " 不能被打出 。 bluearchive_hifumi:不可收藏 。",
+    "EXTENDED_DESCRIPTION": [
+      "不能打出这张牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:BundlePurchase": {
+    "NAME": "打包购买",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将 !M! 张 *赝品 加入弃牌堆。"
+  },
+  "BlueArchive_Hifumi:Fraud": {
+    "NAME": "诈骗",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 将 !M! 张 *赝品 加入弃牌堆。"
+  },
+  "BlueArchive_Hifumi:Incinerator": {
+    "NAME": "焚化炉",
+    "DESCRIPTION": "回合结束时，对所有敌人造成等同于弃牌堆中状态牌和诅咒牌数量 !M! 倍的伤害。"
+  },
+  "BlueArchive_Hifumi:TimeOnTarget": {
+    "NAME": "TOT战术",
+    "DESCRIPTION": " bluearchive_hifumi:朋友 。 bluearchive_hifumi:炮火 。 bluearchive_hifumi:不可收藏 。 NL 造成 !D! 点伤害。 NL 这张牌在弃牌堆时也能触发效果。"
+  },
+  "BlueArchive_Hifumi:TwoPounderHighExplosives": {
+    "NAME": "2磅高爆弹",
+    "DESCRIPTION": " bluearchive_hifumi:炮火 。 NL 造成 !D! 点伤害。"
+  },
+  "BlueArchive_Hifumi:TankDrift": {
+    "NAME": "坦克漂移",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将 X 张 *FlaK40 加入手牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 将 X 张 *FlaK40+ 加入手牌。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": [" bluearchive_hifumi:炮火 "]
+  },
+  "BlueArchive_Hifumi:Flak40": {
+    "NAME": "FlaK40",
+    "DESCRIPTION": " bluearchive_hifumi:炮火 。 NL 获得 !B! 点 格挡 。"
+  },
+  "BlueArchive_Hifumi:ReloadHighExplosives": {
+    "NAME": "高爆弹装填！",
+    "DESCRIPTION": "丢弃所有非 保留 的手牌，并抽对应数量的牌。 NL 触发所有丢弃的 bluearchive_hifumi:炮火 牌的效果。",
+    "UPGRADE_DESCRIPTION": "丢弃所有非 保留 的手牌，并抽对应数量的牌。 NL 触发所有丢弃的 bluearchive_hifumi:炮火 牌的效果两次。"
+  },
+  "BlueArchive_Hifumi:OurStory": {
+    "NAME": "我们的故事",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 选择一张弃牌堆的牌，将其所有同名牌放回手中。"
+  },
+  "BlueArchive_Hifumi:Explosion": {
+    "NAME": "爆炸！",
+    "DESCRIPTION": " bluearchive_hifumi:炮火 。 NL 不分敌我对所有人造成 !D! 点伤害。"
+  },
+  "BlueArchive_Hifumi:GourmetResearchSociety": {
+    "NAME": "要么吃，要么死！",
+    "DESCRIPTION": " bluearchive_hifumi:朋友 。 NL 对所有敌人造成 !D! 点伤害。 NL 将 !M! 张 *爆炸！ 加入弃牌堆。",
+    "EXTENDED_DESCRIPTION": [" bluearchive_hifumi:炮火 "]
+  },
+  "BlueArchive_Hifumi:MaskedSwinsuitGang": {
+    "NAME": "蒙面泳装团",
+    "DESCRIPTION": " bluearchive_hifumi:朋友 。 NL 造成 !D! 点伤害 !M! 次。 NL 牌组中每种其他 bluearchive_hifumi:朋友 牌提高这张牌的伤害1点。"
+  },
+  "BlueArchive_Hifumi:Reisa": {
+    "NAME": "放鸽子",
+    "DESCRIPTION": "最后，朋友并没有来。"
+  },
+  "BlueArchive_Hifumi:AngryAdeliesBlessing": {
+    "NAME": "愤怒阿德利的庇护",
+    "DESCRIPTION": "弃牌堆每有 !M! 张牌，攻击牌造成的伤害就提高1点。"
+  },
+  "BlueArchive_Hifumi:SiegeMode": {
+    "NAME": "攻城模式",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 为这张牌添加 bluearchive_hifumi:炮火 属性。"
+  },
+  "BlueArchive_Hifumi:PleaseCrusaderChan": {
+    "NAME": "十字军酱，拜托了！",
+    "DESCRIPTION": "将一张 *2磅高爆弹 加入手牌。 NL 本场战斗 bluearchive_hifumi:炮火 的伤害和 格挡 数值提高 !M! 点。"
+  },
+  "BlueArchive_Hifumi:PeroroBomb": {
+    "NAME": "佩洛洛炸弹",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 当这名敌人死亡时，对所有敌人造成 !M! 点伤害。"
+  },
+  "BlueArchive_Hifumi:PerfectedPeroroStrike": {
+    "NAME": "完美佩洛洛打击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每有一张名字带有 \"佩洛洛\" 的牌，伤害提高 !M! 点。"
+  },
+  "BlueArchive_Hifumi:IncandescentEyes": {
+    "NAME": "炽热之眼",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 施加 !M! 层 易伤 。 NL 本场战斗这张牌的伤害和易伤层数提高 !BlueArchive_Hifumi:M! 点。"
+  },
+  "BlueArchive_Hifumi:RuinConstruction": {
+    "NAME": "毁坏建筑",
+    "DESCRIPTION": " 消耗 弃牌堆中所有 bluearchive_hifumi:埋藏 牌。每消耗一张牌，对所有敌人造成 !D! 点伤害。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (攻击 ",
+      " 次。)"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroTheForbiddenOne": {
+    "NAME": "被封印者",
+    "DESCRIPTION": " 不能被打出 。 NL bluearchive_hifumi:不可收藏 。 保留 。 NL 如果手中集齐了所有 *被封印者 牌，将其全部消耗并对所有敌人造成 !M! 点伤害，并抽 !BlueArchive_Hifumi:M! 张牌。",
+    "EXTENDED_DESCRIPTION": [
+      "不能打出这张牌。",
+      " 不能被打出 。 NL bluearchive_hifumi:不可收藏 。 保留 。",
+      "被封印的佩洛洛",
+      "被封印者的左手",
+      "被封印者的右手",
+      "被封印者的左脚",
+      "被封印者的右脚"
+    ]
+  },
+  "BlueArchive_Hifumi:AnotherMe": {
+    "NAME": "预制模型",
+    "DESCRIPTION": "将5张 *被封印者 牌加入弃牌堆。 NL 每当你抽到 *被封印者 牌，获得 !M! 点 格挡 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 将5张 *被封印者 牌加入弃牌堆。 NL 每当你抽到 *被封印者 牌，获得 !M! 点 格挡 。"
+  },
+  "BlueArchive_Hifumi:RandomSwingStrike": {
+    "NAME": "乱舞打击",
+    "DESCRIPTION": "每当你 bluearchive_hifumi:收藏 这张牌，将一张复制品加入手牌。 NL 造成 !D! 点伤害。"
+  },
+  "BlueArchive_Hifumi:FunnyFriendFantasy": {
+    "NAME": "有趣的朋友幻想",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果这张牌从牌组中被转化或移除，将一张随机 bluearchive_hifumi:朋友 牌加入牌组。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 如果这张牌从牌组中被转化或移除，将一张已升级的随机 bluearchive_hifumi:朋友 牌加入牌组。"
+  },
+  "BlueArchive_Hifumi:FestivalGacha": {
+    "NAME": "庆典扭蛋",
+    "DESCRIPTION": "复制弃牌堆中的所有牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 复制弃牌堆中的所有牌。 NL 消耗 。"
+  },
+  "BlueArchive_Hifumi:HifumiDaisuki": {
+    "NAME": "最喜欢日富美了",
+    "DESCRIPTION": "每当有一张牌进入弃牌堆，获得1点 格挡 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 每当有一张牌进入弃牌堆，获得1点 格挡 。"
+  },
+  "BlueArchive_Hifumi:ScooterCover": {
+    "NAME": "摩托掩护",
+    "DESCRIPTION": " 保留 。 NL 只能在未打出攻击牌的回合打出。 获得 !B! 点 格挡 。 NL 本回合不能打出攻击牌。",
+    "EXTENDED_DESCRIPTION": [
+      "本回合我已打出过攻击牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:ChainExplosion": {
+    "NAME": "连锁爆炸",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 弃牌堆中每张 *连锁爆炸 额外增加一次攻击次数。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (攻击 ",
+      " 次。)"
+    ]
+  },
+  "BlueArchive_Hifumi:FrameTrace": {
+    "NAME": "摩托漂移",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将一张 *火焰轨迹 加入手牌。",
+    "UPGRADE_DESCRIPTION":  "获得 !B! 点 格挡 。 NL 将一张 *火焰轨迹+ 加入手牌。"
+  },
+  "BlueArchive_Hifumi:RingOfFire": {
+    "NAME": "火焰轨迹",
+    "DESCRIPTION": " 不能被打出 。 NL 保留 。 bluearchive_hifumi:埋藏 。 NL 打出攻击牌时，将其伤害提高 !M! 点并丢弃这张牌。",
+    "EXTENDED_DESCRIPTION": [
+      "不能打出这张牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:YouAreMine": {
+    "NAME": "你是我的了！",
+    "DESCRIPTION": "施加 !M! 层 虚弱 和 易伤 。 NL 目标失去自身负面状态层数总和2倍的生命。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      "你是我的了！"
+    ]
+  },
+  "BlueArchive_Hifumi:BarbedFence": {
+    "NAME": "带刺围栏",
+    "DESCRIPTION": " bluearchive_hifumi:埋藏 。 NL 对所有敌人造成 !D! 点伤害并施加 !M! 层 虚弱 。 NL 每当这张牌进入弃牌堆，对所有敌人施加 !BlueArchive_Hifumi:M! 层 虚弱 。"
+  },
+  "BlueArchive_Hifumi:TrinityWarehouse": {
+    "NAME": "三一仓库",
+    "DESCRIPTION": "每 bluearchive_hifumi:收藏 一张 bluearchive_hifumi:埋藏 牌，抽 !M! 张牌。"
+  },
+  "BlueArchive_Hifumi:ItazuraStraight": {
+    "NAME": "Itazura☆Straight",
+    "DESCRIPTION": " bluearchive_hifumi:朋友 。 NL 选择抽牌堆中1张 bluearchive_hifumi:不可收藏 的牌将其放入弃牌堆。每回合开始时， bluearchive_hifumi:收藏 它。",
+    "UPGRADE_DESCRIPTION":  " bluearchive_hifumi:朋友 。 固有 。 NL 选择抽牌堆中1张 bluearchive_hifumi:不可收藏 的牌将其放入弃牌堆。每回合开始时， bluearchive_hifumi:收藏 它。"
+  },
+  "BlueArchive_Hifumi:LuckyPunch": {
+    "NAME": "幸运一击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 永久降低这张牌的耗能 !M! 点。如果在一场战斗中打出了两次，费用重置。"
+  },
+  "BlueArchive_Hifumi:EvolvingPeroro": {
+    "NAME": "进化的佩洛洛",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 斩杀 时，从三个随机选项中选择一项进行 进化 。 NL (还剩 !M! 次。)",
+    "EXTENDED_DESCRIPTION": [
+      "造成 !D! 点伤害。",
+      "获得 !B! 点 格挡 。",
+      "施加 !BlueArchive_Hifumi:M! 层 虚弱 。",
+      "施加 !BlueArchive_Hifumi:M! 层 易伤 。",
+      "施加 !BlueArchive_Hifumi:M! 层 虚弱 和 易伤 。",
+      "斩杀时， 进化 。",
+      "NL (还剩 !M! 次。)",
+      "造成 !D! 点伤害两次。",
+      "造成 !D! 点伤害3次",
+      "对所有敌人造成 !D! 点伤害。",
+      " bluearchive_hifumi:炮火 。",
+      "对所有敌人施加 !BlueArchive_Hifumi:M! 层 虚弱 。",
+      "对所有敌人施加 !BlueArchive_Hifumi:M! 层 易伤 。",
+      "对所有敌人施加 !BlueArchive_Hifumi:M! 层 虚弱 和 易伤 。",
+      " 消耗 。",
+      "抽 !bluearchive_hifumi:M2! 张牌。",
+      " bluearchive_hifumi:收藏 !bluearchive_hifumi:M2! 。",
+      " 保留 。",
+      "将1张 *赝品 加入手牌。",
+      "将2张 *赝品 加入手牌。",
+      " bluearchive_hifumi:埋藏 。"
+    ]
+  },
+  "BlueArchive_Hifumi:CampOfDoll": {
+    "NAME": "玩偶营",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 弃牌堆中每有一张状态或诅咒牌， 格挡 值额外提高2点。"
+  },
+  "BlueArchive_Hifumi:PeroroLimitedEdition": {
+    "NAME": "佩洛洛限定版",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 如果这张牌本回合内被 bluearchive_hifumi:收藏 过，选择一件 bluearchive_hifumi:佩洛洛周边 触发其效果。"
+  },
+  "BlueArchive_Hifumi:PerfectCollector": {
+    "NAME": "完美收藏家",
+    "DESCRIPTION": " bluearchive_hifumi:墓地 。 保留 。 NL 只有在战斗中 bluearchive_hifumi:收藏 过6种以上不同牌时才能打出。 NL 获得 !M! 点 力量 和 敏捷 。",
+    "EXTENDED_DESCRIPTION": [
+      " NL (还剩 ",
+      " 张。)",
+      "现在还不能打出。"
+    ]
+  },
+  "BlueArchive_Hifumi:CarWash": {
+    "NAME": "洗车",
+    "DESCRIPTION": "选择弃牌堆中一张牌。 NL 下次打出它时，将会打出两次。",
+    "UPGRADE_DESCRIPTION": "选择弃牌堆中一张牌。 NL 下次打出它时，将会打出两次。 NL bluearchive_hifumi:收藏 !M! 。",
+    "EXTENDED_DESCRIPTION": [
+      "打出 ",
+      " 次。"
+    ]
+  },
+  "BlueArchive_Hifumi:Wanted": {
+    "NAME": "通缉",
+    "DESCRIPTION": " 不能被打出 。 NL 不能从牌组中移除。 NL 每当你 bluearchive_hifumi:收藏 到这张牌，将一张新的 *通缉 加入牌组。",
+    "EXTENDED_DESCRIPTION": [
+      "不能打出这张牌。"
+    ]
+  }
+}

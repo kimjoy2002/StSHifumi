@@ -1,0 +1,79 @@
+{
+  "BlueArchive_Hifumi:CollectSelectAction": {
+    "TEXT": [
+      "选择要收藏的牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:TimeBoxAction": {
+    "TEXT": [
+      "选择要返回抽牌堆的牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:LabelingAction": {
+    "TEXT": [
+      "选择一张牌放到弃牌堆底部。"
+    ]
+  },
+  "BlueArchive_Hifumi:SpadeworkAction": {
+    "TEXT": [
+      "选择一张牌赋予 埋藏 属性",
+      " BlueArchive_Hifumi:埋藏 ",
+      "选择一张牌赋予 不可收藏 和 埋藏 属性",
+      " BlueArchive_Hifumi:不可收藏 "
+    ]
+  },
+  "BlueArchive_Hifumi:SecondhandTradeAction": {
+    "TEXT": [
+      "选择要丢弃并赋予 埋藏 的牌",
+      "选择要丢弃并赋予 埋藏 的 ",
+      " 张牌"
+    ]
+  },
+  "BlueArchive_Hifumi:AddLearnedAction": {
+    "TEXT": [
+      "赋予 墓地 ",
+      " BlueArchive_Hifumi:墓地 ",
+      "选择要赋予 墓地 的牌"
+    ]
+  },
+  "BlueArchive_Hifumi:CopyDiscardAction": {
+    "TEXT": [
+      "选择要复制的牌"
+    ]
+  },
+  "BlueArchive_Hifumi:GachaPon": {
+    "TEXT": [
+      "佩洛洛扭蛋机",
+      "获得 #b1 个随机 #y普通 #y佩洛洛周边 。同个商店每次使用价格都会提高 #b",
+      " 金币。",
+      "获得 #b2 个随机 #y普通 #y佩洛洛周边 。",
+      "获得 #b1 个随机 #y稀有 #y佩洛洛周边 。"
+    ]
+  },
+  "BlueArchive_Hifumi:OurStoryAction": {
+    "TEXT": [
+      "选择一张牌加入手牌"
+    ]
+  },
+  "BlueArchive_Hifumi:CannonModifier": {
+    "TEXT": [
+      " BlueArchive_Hifumi:炮火 "
+    ]
+  },
+  "BlueArchive_Hifumi:ItazuraAction": {
+    "TEXT": [
+      "选择要放入弃牌堆的牌"
+    ]
+  },
+  "BlueArchive_Hifumi:EvoveAttackAction": {
+    "TEXT": [
+      "进化！",
+      "选择一项进化分支"
+    ]
+  },
+  "BlueArchive_Hifumi:CarWashAction": {
+    "TEXT": [
+      "选择一张牌"
+    ]
+  }
+}

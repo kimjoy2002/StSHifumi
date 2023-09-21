@@ -1,0 +1,10 @@
+{
+  "BlueArchive_Hifumi:CollectPotion": {
+    "NAME": "收藏药水",
+    "DESCRIPTIONS": [" #y收藏 #b", " 。"]
+  },
+  "BlueArchive_Hifumi:PeroroPotion": {
+    "NAME": "佩洛洛药水",
+    "DESCRIPTIONS": ["选择 #y佩洛洛周边 并将其层数在本场战斗中提高 #b", " 层。 使用选择的 #y佩洛洛周边 的效果。"]
+  }
+}

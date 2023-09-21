@@ -1,0 +1,110 @@
+{
+  "BlueArchive_Hifumi:MineExpertPower": {
+    "NAME": "十字军酱，拜托你了！",
+    "DESCRIPTIONS": [
+      " #y炮火 牌的伤害和 #y格挡 数值提高 #b",
+      " 点。"
+    ]
+  },
+  "BlueArchive_Hifumi:PassionateCollector": {
+    "NAME": "狂热收藏家",
+    "DESCRIPTIONS": [
+      "每当 #y收藏 时，获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "BlueArchive_Hifumi:LabelingPower": {
+    "NAME": "标记",
+    "DESCRIPTIONS": [
+      "回合开始时，选择弃牌堆中最多 #b",
+      " 张牌，将其放在弃牌堆顶部。",
+      " 张牌，将其放在弃牌堆顶部。"
+    ]
+  },
+  "BlueArchive_Hifumi:BetrayerPower": {
+    "NAME": "浮士德形态",
+    "DESCRIPTIONS": [
+      "回合开始时，弃牌堆中 #b",
+      " 张随机牌的耗能在打出前变为0。"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroHologramPower": {
+    "NAME": "佩洛洛投影",
+    "DESCRIPTIONS": [
+      "回合结束时，获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "BlueArchive_Hifumi:PerorodzillaPower": {
+    "NAME": "佩洛洛斯拉",
+    "DESCRIPTIONS": [
+      "回合结束时，对所有敌人造成 #r",
+      " 点伤害。"
+    ]
+  },
+  "BlueArchive_Hifumi:MomoFriendPower": {
+    "NAME": "MOMO朋友",
+    "DESCRIPTIONS": [
+      "回合开始时，触发 ",
+      " 次 #y佩洛洛周边 的效果。"
+    ]
+  },
+  "BlueArchive_Hifumi:IncineratorPower": {
+    "NAME": "焚化炉",
+    "DESCRIPTIONS": [
+       "回合结束时，对所有敌人造成弃牌堆中 #y状态 和 #y诅咒 牌数量 #b",
+       " 倍的伤害。"
+    ]
+  },
+  "BlueArchive_Hifumi:AdeliesPower": {
+    "NAME": "愤怒阿德利的庇护",
+    "DESCRIPTIONS": [
+      "攻击牌造成的伤害提高 #b",
+      " 点，来源于弃牌堆的每 #b",
+      " 张牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:PeroroBombPower": {
+    "NAME": "潜藏炸弹",
+    "DESCRIPTIONS": [
+      "死亡时，对所有敌人造成 #r",
+      " 点伤害。"
+    ]
+  },
+  "BlueArchive_Hifumi:Constricted": {
+    "NAME": "缠绕",
+    "DESCRIPTIONS": [
+      "回合开始时，受到 #b",
+      " 点伤害。"
+    ]
+  },
+  "BlueArchive_Hifumi:HifumiDaisukiPower": {
+    "NAME": "最喜欢日富美了",
+    "DESCRIPTIONS": [
+      "每主动丢弃一张牌，获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "BlueArchive_Hifumi:PrefabModelPower": {
+    "NAME": "预制模型",
+    "DESCRIPTIONS": [
+      "每当抽到 #y被封印者 时，获得 #b",
+      " 点 #y格挡 。"
+    ]
+  },
+  "BlueArchive_Hifumi:TrinityPower": {
+    "NAME": "三一仓库",
+    "DESCRIPTIONS": [
+      "每 #y收藏 一张 #y埋藏 牌，抽 #b",
+      " 张牌。",
+      " 张牌。"
+    ]
+  },
+  "BlueArchive_Hifumi:ItazuraStraightPower": {
+    "NAME": "イタズラ☆ストレート",
+    "DESCRIPTIONS": [
+      "回合开始时， #y收藏 ",
+      " 张弃牌堆的牌。"
+    ]
+  }
+}
