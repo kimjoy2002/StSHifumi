@@ -18,7 +18,7 @@
   },
   "BlueArchive_Hifumi:CollectorsSpirit": {
     "NAME": "收藏家精神",
-    "DESCRIPTION": " bluearchive_hifumi:收藏 !M! 。"
+    "DESCRIPTION": " bluearchive_hifumi:不可收藏 。 NL bluearchive_hifumi:收藏 !M! 。"
   },
   "BlueArchive_Hifumi:SwingBag": {
     "NAME": "背包挥击",
@@ -31,7 +31,7 @@
   "BlueArchive_Hifumi:PeroroCoin": {
     "NAME": "佩洛洛硬币",
     "DESCRIPTION": " bluearchive_hifumi:墓地 。 不能被打出 。 NL 每当这张牌被 bluearchive_hifumi:收藏 ，获得 [E] 。",
-    "UPGRADE_DESCRIPTION": "BlueArchive_Hifumi:墓地 。 不能被打出 。 NL 每当这张牌被 bluearchive_hifumi:收藏 ，获得 [E] [E] 。",
+    "UPGRADE_DESCRIPTION": " bluearchive_hifumi:墓地 。 不能被打出 。 NL 每当这张牌被 bluearchive_hifumi:收藏 ，获得 [E] [E] 。",
     "EXTENDED_DESCRIPTION": [
       "这张卡不能被打出。"
     ]
@@ -109,7 +109,7 @@
     "NAME": "坦克装填",
     "DESCRIPTION": "造成 !D! 点伤害。 NL 将 !M! 张 *2磅高爆弹 加入手牌。",
     "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 将 !M! 张 *2磅高爆弹+ 加入手牌。",
-    "EXTENDED_DESCRIPTION": [" bluearchive_hifumi:炮火 "]
+    "EXTENDED_DESCRIPTION": ["bluearchive_hifumi:炮火"]
   },
   "BlueArchive_Hifumi:TeaTime": {
     "NAME": "茶点时间",
@@ -254,7 +254,7 @@
     "NAME": "坦克漂移",
     "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将 X 张 *FlaK40 加入手牌。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 将 X 张 *FlaK40+ 加入手牌。 NL 消耗 。",
-    "EXTENDED_DESCRIPTION": [" bluearchive_hifumi:炮火 "]
+    "EXTENDED_DESCRIPTION": ["bluearchive_hifumi:炮火"]
   },
   "BlueArchive_Hifumi:Flak40": {
     "NAME": "FlaK40",
@@ -276,7 +276,7 @@
   "BlueArchive_Hifumi:GourmetResearchSociety": {
     "NAME": "要么吃，要么死！",
     "DESCRIPTION": " bluearchive_hifumi:朋友 。 NL 对所有敌人造成 !D! 点伤害。 NL 将 !M! 张 *爆炸！ 加入弃牌堆。",
-    "EXTENDED_DESCRIPTION": [" bluearchive_hifumi:炮火 "]
+    "EXTENDED_DESCRIPTION": ["bluearchive_hifumi:炮火"]
   },
   "BlueArchive_Hifumi:MaskedSwinsuitGang": {
     "NAME": "蒙面泳装团",
@@ -425,8 +425,8 @@
       "对所有敌人施加 !BlueArchive_Hifumi:M! 层 易伤 。",
       "对所有敌人施加 !BlueArchive_Hifumi:M! 层 虚弱 和 易伤 。",
       " 消耗 。",
-      "抽 !bluearchive_hifumi:M2! 张牌。",
-      " bluearchive_hifumi:收藏 !bluearchive_hifumi:M2! 。",
+      "抽 !BlueArchive_Hifumi:M2! 张牌。",
+      " bluearchive_hifumi:收藏 !BlueArchive_Hifumi:M2! 。",
       " 保留 。",
       "将1张 *赝品 加入手牌。",
       "将2张 *赝品 加入手牌。",
