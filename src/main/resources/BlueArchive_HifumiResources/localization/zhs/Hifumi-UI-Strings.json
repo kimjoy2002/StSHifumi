@@ -17,9 +17,9 @@
   "BlueArchive_Hifumi:SpadeworkAction": {
     "TEXT": [
       "选择一张牌赋予 埋藏 属性",
-      " BlueArchive_Hifumi:埋藏 ",
+      " bluearchive_hifumi:埋藏 ",
       "选择一张牌赋予 不可收藏 和 埋藏 属性",
-      " BlueArchive_Hifumi:不可收藏 "
+      " bluearchive_hifumi:不可收藏 "
     ]
   },
   "BlueArchive_Hifumi:SecondhandTradeAction": {
@@ -32,7 +32,7 @@
   "BlueArchive_Hifumi:AddLearnedAction": {
     "TEXT": [
       "赋予 墓地 ",
-      " BlueArchive_Hifumi:墓地 ",
+      " bluearchive_hifumi:墓地 ",
       "选择要赋予 墓地 的牌"
     ]
   },
@@ -57,7 +57,7 @@
   },
   "BlueArchive_Hifumi:CannonModifier": {
     "TEXT": [
-      " BlueArchive_Hifumi:炮火 "
+      " bluearchive_hifumi:炮火 "
     ]
   },
   "BlueArchive_Hifumi:ItazuraAction": {

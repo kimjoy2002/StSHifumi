@@ -3,6 +3,7 @@ package BlueArchive_Hifumi.cards;
 import BlueArchive_Hifumi.DefaultMod;
 import BlueArchive_Hifumi.actions.CollectAction;
 import BlueArchive_Hifumi.characters.Hifumi;
+import BlueArchive_Hifumi.patches.EnumPatch;
 import com.megacrit.cardcrawl.actions.common.DiscardAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -31,6 +32,7 @@ public class CollectorsSpirit extends AbstractDynamicCard implements CollectCard
     public CollectorsSpirit() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
         baseMagicNumber = magicNumber = MAGIC;
+        this.tags.add(EnumPatch.NONCOLLECTABLE);
     }
 
     // Actions the card should do.
