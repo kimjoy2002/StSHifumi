@@ -53,7 +53,7 @@ public class UncommonPeroroDamageRelic extends CustomRelic implements PeroroGood
 
     @Override
     public int getMagic2(int add){
-        return val + AMOUNT_PLUS * add;
+        return val2 + AMOUNT_PLUS * add;
     };
     @Override
     public void addTempCounter(int counter) {

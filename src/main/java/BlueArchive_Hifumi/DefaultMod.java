@@ -13,7 +13,6 @@ import BlueArchive_Hifumi.potions.PeroroPotion;
 import BlueArchive_Hifumi.relics.*;
 import BlueArchive_Hifumi.relics.peroro.*;
 import BlueArchive_Hifumi.reward.EvoveReward;
-import BlueArchive_Hifumi.reward.EvoveSave;
 import BlueArchive_Hifumi.reward.LearndReward;
 import BlueArchive_Hifumi.screens.EvoveScreen;
 import BlueArchive_Hifumi.screens.GachaShopScreen;
@@ -22,7 +21,6 @@ import BlueArchive_Hifumi.variables.SecondMagicNumber;
 import BlueArchive_Hifumi.variables.ThirdMagicNumber;
 import basemod.*;
 import basemod.eventUtil.AddEventParams;
-import basemod.eventUtil.EventUtils;
 import basemod.interfaces.*;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
@@ -55,9 +53,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
 import java.util.Properties;
-import java.util.UUID;
-
-import static basemod.eventUtil.EventUtils.eventIDs;
 
 //TODO: DON'T MASS RENAME/REFACTOR
 //TODO: DON'T MASS RENAME/REFACTOR
@@ -107,8 +102,13 @@ public class DefaultMod implements
     public static Properties hifumiSettings = new Properties();
     public static final String ACTIVE_TUTORIAL = "activeTutorial";
     public static final String DISABLE_PEROROGOODS_PANEL = "disablePerorogoodsPanel";
+    public static final String COLLECT_OFFSET_X = "CollectOffsetX";
+    public static final String COLLECT_OFFSET_Y = "CollectOffsetY";
     public static boolean activeTutorial = true;
     public static boolean disablePeroroGoodsBar = false;
+
+    public static float collectOffsetX = 0.0f;
+    public static float collectOffsetY = 0.0f;
 
     //This is for the in-game mod settings panel.
     private static final String MODNAME = "BlueArchive Hifumi";
@@ -116,6 +116,13 @@ public class DefaultMod implements
     private static final String DESCRIPTION = "BlueArchive Ajitani Hifumi mod";
     ModLabeledToggleButton activeTutorialButton = null;
     ModLabeledToggleButton disablePeroroGoodsBarButton = null;
+
+    ModLabel collectUiLabel = null;
+    ModMinMaxSlider collectUiOffsetXSlider = null;
+    ModMinMaxSlider collectUiOffsetYSlider = null;
+
+    ModLabel resetLabel = null;
+    ModButton collectUiResetButton = null;
     
     // =============== INPUT TEXTURE LOCATION =================
     
@@ -247,12 +254,17 @@ public class DefaultMod implements
         logger.info("Adding mod settings");
         hifumiSettings.setProperty(ACTIVE_TUTORIAL, "TRUE");
         hifumiSettings.setProperty(DISABLE_PEROROGOODS_PANEL, "FALSE");
+        hifumiSettings.setProperty(COLLECT_OFFSET_X, "0");
+        hifumiSettings.setProperty(COLLECT_OFFSET_Y, "0");
+
 
         try {
             SpireConfig config = new SpireConfig("BlueArchive_Hifumi", "BlueArchiveConfig", hifumiSettings);
             config.load();
             activeTutorial = config.getBool(ACTIVE_TUTORIAL);
             disablePeroroGoodsBar = config.getBool(DISABLE_PEROROGOODS_PANEL);
+            collectOffsetX = config.getInt(COLLECT_OFFSET_X);
+            collectOffsetY = config.getInt(COLLECT_OFFSET_Y);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -372,9 +384,72 @@ public class DefaultMod implements
                         e.printStackTrace();
                     }
                 });
+        collectUiLabel = new ModLabel("Collect UI Offset:", 350.0f, 450.0f,  settingsPanel,
+                (label) -> {
+                }
+        );
+        collectUiOffsetXSlider = new ModMinMaxSlider("X:", 750.0f, 480.0f, -1000.0f, 1000.0f, collectOffsetX, Integer.toString((int)collectOffsetX), settingsPanel,
+                (label) -> {
+                    collectOffsetX = label.getValue();
+                    ReflectionHacks.setPrivate(collectUiOffsetXSlider, ModMinMaxSlider.class, "format", Integer.toString((int)collectOffsetX));
+
+                    try {
+                        SpireConfig config = new SpireConfig("BlueArchive_Hifumi", "BlueArchiveConfig", hifumiSettings);
+                        config.setInt(COLLECT_OFFSET_X, (int) collectOffsetX);
+                        config.save();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                }
+        );
+        collectUiOffsetYSlider = new ModMinMaxSlider("Y:", 750.0f, 420.0f, -1000.0f, 1000.0f, collectOffsetY, Integer.toString((int)collectOffsetY), settingsPanel,
+                (label) -> {
+                    collectOffsetY = label.getValue();
+                    ReflectionHacks.setPrivate(collectUiOffsetYSlider, ModMinMaxSlider.class, "format", Integer.toString((int)collectOffsetY));
+
+                    try {
+                        SpireConfig config = new SpireConfig("BlueArchive_Hifumi", "BlueArchiveConfig", hifumiSettings);
+                        config.setInt(COLLECT_OFFSET_Y, (int) collectOffsetY);
+                        config.save();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                }
+        );
+        collectUiResetButton = new ModButton(1100.0f, 400.0f, settingsPanel,
+                (label) -> {
+                    collectOffsetX = 0.0f;
+                    collectOffsetY = 0.0f;
+                    collectUiOffsetXSlider.setValue(0.0f);
+                    collectUiOffsetYSlider.setValue(0.0f);
+                    ReflectionHacks.setPrivate(collectUiOffsetXSlider, ModMinMaxSlider.class, "format", Integer.toString((int)collectOffsetX));
+                    ReflectionHacks.setPrivate(collectUiOffsetYSlider, ModMinMaxSlider.class, "format", Integer.toString((int)collectOffsetY));
+
+                    try {
+                        SpireConfig config = new SpireConfig("BlueArchive_Hifumi", "BlueArchiveConfig", hifumiSettings);
+                        config.setInt(COLLECT_OFFSET_X, (int) collectOffsetX);
+                        config.setInt(COLLECT_OFFSET_Y, (int) collectOffsetY);
+                        config.save();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+        );
+        resetLabel = new ModLabel("<- Reset Offset", 1200.0f, 450.0f,  settingsPanel,
+                (label) -> {
+                }
+        );
+
         settingsPanel.addUIElement(activeTutorialButton);
         settingsPanel.addUIElement(disablePeroroGoodsBarButton);
-        
+        settingsPanel.addUIElement(collectUiLabel);
+        settingsPanel.addUIElement(collectUiOffsetXSlider);
+        settingsPanel.addUIElement(collectUiOffsetYSlider);
+        settingsPanel.addUIElement(collectUiResetButton);
+        settingsPanel.addUIElement(resetLabel);
+
         BaseMod.registerModBadge(badgeTexture, MODNAME, AUTHOR, DESCRIPTION, settingsPanel);
 
         BaseMod.registerCustomReward(

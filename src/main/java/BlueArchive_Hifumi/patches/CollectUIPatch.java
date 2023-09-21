@@ -1,7 +1,9 @@
 package BlueArchive_Hifumi.patches;
 
+import BlueArchive_Hifumi.DefaultMod;
 import BlueArchive_Hifumi.cards.CollectCard;
 import BlueArchive_Hifumi.cards.TeaTime;
+import basemod.BaseMod;
 import basemod.ReflectionHacks;
 import basemod.abstracts.AbstractCardModifier;
 import basemod.helpers.CardModifierManager;
@@ -62,8 +64,8 @@ public class CollectUIPatch {
             }
 
             int size = group_.group.size();
-            float x_ = __instance.current_x + 180.0F * Settings.scale - 64.0F;
-            float y_ = __instance.current_y + 70.0F * Settings.scale - 64.0F;
+            float x_ = __instance.current_x + 180.0F * Settings.scale - 64.0F + DefaultMod.collectOffsetX* Settings.scale;
+            float y_ = __instance.current_y + 70.0F * Settings.scale - 64.0F + DefaultMod.collectOffsetY* Settings.scale;
             x_ += 64.0F * Settings.scale;
             y_ += 256.0F * Settings.scale;
             float interval_ = 100.0F * Settings.scale;
