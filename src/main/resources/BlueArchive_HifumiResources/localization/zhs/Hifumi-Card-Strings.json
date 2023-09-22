@@ -435,7 +435,7 @@
   },
   "BlueArchive_Hifumi:CampOfDoll": {
     "NAME": "玩偶营",
-    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 弃牌堆中每有一张状态或诅咒牌， 格挡 值额外提高2点。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 弃牌堆中每有一张状态或诅咒牌， 格挡 值额外提高 !M! 点。"
   },
   "BlueArchive_Hifumi:PeroroLimitedEdition": {
     "NAME": "佩洛洛限定版",

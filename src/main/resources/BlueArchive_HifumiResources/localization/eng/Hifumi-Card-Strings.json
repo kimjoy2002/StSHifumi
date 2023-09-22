@@ -435,7 +435,7 @@
   },
   "BlueArchive_Hifumi:CampOfDoll": {
     "NAME": "Camp Of Doll",
-    "DESCRIPTION": "Gain !B! Block. NL Gain 2 additional Block for each Status or Curse card in your discard pile."
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! additional Block for each Status or Curse card in your discard pile."
   },
   "BlueArchive_Hifumi:PeroroLimitedEdition": {
     "NAME": "Peroro Limited Edition",
