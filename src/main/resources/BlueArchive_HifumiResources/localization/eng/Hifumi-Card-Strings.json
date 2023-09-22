@@ -70,7 +70,7 @@
   },
   "BlueArchive_Hifumi:PeroroBargainSale": {
     "NAME": "Peroro Bargain",
-    "DESCRIPTION": "Choose a common BlueArchive_Hifumi:PeroroGoods and increase its stack by 1 for this combat. NL Use the effect of the selected BlueArchive_Hifumi:PeroroGoods."
+    "DESCRIPTION": "Choose a common BlueArchive_Hifumi:PeroroGoods and increase its stack by !M! for this combat. NL Use the effect of the selected BlueArchive_Hifumi:PeroroGoods."
   },
   "BlueArchive_Hifumi:PerorosBlow": {
     "NAME": "Peroro's Blow",

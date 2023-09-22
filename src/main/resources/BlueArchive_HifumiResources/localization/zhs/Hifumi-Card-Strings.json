@@ -70,7 +70,7 @@
   },
   "BlueArchive_Hifumi:PeroroBargainSale": {
     "NAME": "佩洛洛批发",
-    "DESCRIPTION": "选择一件普通 bluearchive_hifumi:佩洛洛周边 ，将其层数在本场战斗中提高1层。 NL 触发所选的 bluearchive_hifumi:佩洛洛周边 的效果。"
+    "DESCRIPTION": "选择一件普通 bluearchive_hifumi:佩洛洛周边 ，将其层数在本场战斗中提高 !M! 层。 NL 触发所选的 bluearchive_hifumi:佩洛洛周边 的效果。"
   },
   "BlueArchive_Hifumi:PerorosBlow": {
     "NAME": "佩洛洛吹飞",
