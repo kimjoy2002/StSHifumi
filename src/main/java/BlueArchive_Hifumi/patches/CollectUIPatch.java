@@ -3,6 +3,7 @@ package BlueArchive_Hifumi.patches;
 import BlueArchive_Hifumi.DefaultMod;
 import BlueArchive_Hifumi.cards.CollectCard;
 import BlueArchive_Hifumi.cards.TeaTime;
+import BlueArchive_Hifumi.powers.ItazuraStraightPower;
 import basemod.BaseMod;
 import basemod.ReflectionHacks;
 import basemod.abstracts.AbstractCardModifier;
@@ -16,6 +17,7 @@ import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.CardGroup;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.ui.panels.DiscardPilePanel;
 import javassist.CtBehavior;
 import org.apache.logging.log4j.LogManager;
@@ -123,6 +125,8 @@ public class CollectUIPatch {
 
     private static Texture cannon = new Texture("BlueArchive_HifumiResources/images/512/cannon.png");
 
+    private static Texture itazura = new Texture("BlueArchive_HifumiResources/images/512/itazura.png");
+
 
     @SpirePatch(
             clz = AbstractCard.class,
@@ -148,6 +152,21 @@ public class CollectUIPatch {
                     float w = cannon.getWidth();
                     float h = cannon.getHeight();
                     sb.draw(cannon, __instance.current_x-256, __instance.current_y-256, w/2.0f, h/2.0f, w, h, __instance.drawScale * Settings.scale, __instance.drawScale * Settings.scale, __instance.angle, 0, 0, (int)w, (int)h, false, false);
+                }
+                if(AbstractDungeon.player != null) {
+                    for(AbstractPower powerTemp : AbstractDungeon.player.powers) {
+                        if(powerTemp instanceof ItazuraStraightPower) {
+                            ItazuraStraightPower power_ = (ItazuraStraightPower) powerTemp;
+
+                            if(__instance ==  power_.card && !__instance.isLocked && __instance.isSeen) {
+                                sb.setColor(new Color(1.0F, 1.0F, 1.0F, 1.0F));
+                                float w = itazura.getWidth();
+                                float h = itazura.getHeight();
+                                sb.draw(itazura, __instance.current_x-256, __instance.current_y-256, w/2.0f, h/2.0f, w, h, __instance.drawScale * Settings.scale, __instance.drawScale * Settings.scale, __instance.angle, 0, 0, (int)w, (int)h, false, false);
+                            }
+                        }
+
+                    }
 
                 }
             }
