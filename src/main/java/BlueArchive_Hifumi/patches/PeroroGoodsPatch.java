@@ -18,6 +18,7 @@ import com.megacrit.cardcrawl.helpers.MathHelper;
 import com.megacrit.cardcrawl.helpers.PowerTip;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.ui.panels.DiscardPilePanel;
 import javassist.CtBehavior;
 
@@ -117,18 +118,16 @@ public class PeroroGoodsPatch {
     public static class InstantObtainPatcher {
 
         public static SpireReturn Prefix(AbstractRelic __instance, AbstractPlayer p, int slot, boolean callOnEquip) {
-            if(!disablePeroroGoodsBar) {
-                if (__instance instanceof PeroroGoodsRelic && p != null && p.hasRelic(__instance.relicId)) {
-                    AbstractRelic peroro = p.getRelic(__instance.relicId);
-                    peroro.setCounter(peroro.counter+1);
-                    peroro.flash();
-                    ((PeroroGoodsRelic)peroro).updateDescription();
+            if (__instance instanceof PeroroGoodsRelic && p != null && p.hasRelic(__instance.relicId)) {
+                AbstractRelic peroro = p.getRelic(__instance.relicId);
+                peroro.setCounter(peroro.counter+1);
+                peroro.flash();
+                ((PeroroGoodsRelic)peroro).updateDescription();
 
-                    __instance.isDone = true;
-                    __instance.isObtained = true;
-                    __instance.discarded = true;
-                    return SpireReturn.Return();
-                }
+                __instance.isDone = true;
+                __instance.isObtained = true;
+                __instance.discarded = true;
+                return SpireReturn.Return();
             }
             return SpireReturn.Continue();
         }
@@ -184,6 +183,31 @@ public class PeroroGoodsPatch {
             }
         }
     }
+
+
+    @SpirePatch(
+            clz = AbstractRoom.class,
+            method = "spawnRelicAndObtain",
+            paramtypez = {
+                    float.class,
+                    float.class,
+                    AbstractRelic.class
+            }
+    )
+    public static class SpawnRelicAndObtainPatcher {
+
+        public static SpireReturn Prefix(AbstractRoom __instance, float x, float y, AbstractRelic relic) {
+            if (relic instanceof PeroroGoodsRelic && AbstractDungeon.player.hasRelic(relic.relicId)) {
+                AbstractRelic peroro = AbstractDungeon.player.getRelic(relic.relicId);
+                peroro.setCounter(peroro.counter+1);
+                peroro.flash();
+                ((PeroroGoodsRelic)peroro).updateDescription();
+                return SpireReturn.Return();
+            }
+            return SpireReturn.Continue();
+        }
+    }
+
 
 
 
