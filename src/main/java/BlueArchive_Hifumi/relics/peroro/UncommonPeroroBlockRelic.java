@@ -2,6 +2,7 @@ package BlueArchive_Hifumi.relics.peroro;
 
 import BlueArchive_Hifumi.DefaultMod;
 import BlueArchive_Hifumi.actions.PeroroBlockAction;
+import BlueArchive_Hifumi.effects.LostRelicEffect;
 import BlueArchive_Hifumi.powers.PeroroHologramPower;
 import BlueArchive_Hifumi.util.TextureLoader;
 import basemod.abstracts.CustomRelic;
@@ -26,6 +27,8 @@ public class UncommonPeroroBlockRelic extends CustomRelic implements PeroroGoods
 
     public int currentPower =AMOUNT;
 
+    boolean isTemp = false;
+    public void setTemp(){isTemp = true;}
 
 
 
@@ -77,6 +80,9 @@ public class UncommonPeroroBlockRelic extends CustomRelic implements PeroroGoods
         stopPulse();
         setCounter(counter+temp_count);
         temp_count = 0;
+        if(isTemp) {
+            AbstractDungeon.effectList.add(new LostRelicEffect(relicId));
+        }
     }
 
     public void use() {

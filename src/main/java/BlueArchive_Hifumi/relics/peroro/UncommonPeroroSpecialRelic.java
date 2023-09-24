@@ -1,6 +1,7 @@
 package BlueArchive_Hifumi.relics.peroro;
 
 import BlueArchive_Hifumi.DefaultMod;
+import BlueArchive_Hifumi.effects.LostRelicEffect;
 import BlueArchive_Hifumi.util.TextureLoader;
 import basemod.abstracts.CustomRelic;
 import com.badlogic.gdx.graphics.Texture;
@@ -26,6 +27,8 @@ public class UncommonPeroroSpecialRelic extends CustomRelic implements PeroroGoo
     private static final Texture OUTLINE = TextureLoader.getTexture(makeRelicOutlinePath("uncommon_peroro_special_relic.png"));
 
 
+    boolean isTemp = false;
+    public void setTemp(){isTemp = true;}
     public UncommonPeroroSpecialRelic() {
         super(ID, IMG, OUTLINE, RelicTier.UNCOMMON, LandingSound.SOLID);
         setCounter(1);
@@ -53,6 +56,9 @@ public class UncommonPeroroSpecialRelic extends CustomRelic implements PeroroGoo
         grayscale = false;
         setCounter(counter+temp_count);
         temp_count = 0;
+        if(isTemp) {
+            AbstractDungeon.effectList.add(new LostRelicEffect(relicId));
+        }
     }
 
     @Override

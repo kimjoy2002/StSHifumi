@@ -3,11 +3,15 @@ package BlueArchive_Hifumi.actions;
 import BlueArchive_Hifumi.cards.PeroroGoods;
 import BlueArchive_Hifumi.relics.TwinPeroroRelic;
 import BlueArchive_Hifumi.relics.peroro.PeroroGoodsRelic;
+import BlueArchive_Hifumi.relics.peroro.UncommonPeroroBlockRelic;
+import basemod.devcommands.relic.RelicList;
+import basemod.devcommands.relic.RelicPool;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
+import com.megacrit.cardcrawl.helpers.RelicLibrary;
 import com.megacrit.cardcrawl.helpers.input.InputHelper;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 
@@ -20,6 +24,8 @@ public class UsePeroroGoodsAction extends AbstractGameAction {
     private AbstractPlayer p;
     boolean isRandom;
     int add;
+    boolean all = false;
+    int plus_use = 0;
     AbstractRelic.RelicTier tier;
 
     AbstractRelic specificRelic;
@@ -43,6 +49,18 @@ public class UsePeroroGoodsAction extends AbstractGameAction {
         this.setValues(this.p, AbstractDungeon.player, this.amount);
         this.actionType = ActionType.CARD_MANIPULATION;
     }
+    public UsePeroroGoodsAction(AbstractRelic.RelicTier tier, int amount, boolean random, int add, int plus_use) {
+        this.amount = amount;
+        this.isRandom = random;
+        this.tier = tier;
+        this.add = add;
+        this.specificRelic = null;
+        this.all = true;
+        this.plus_use = plus_use;
+        this.p = AbstractDungeon.player;
+        this.setValues(this.p, AbstractDungeon.player, this.amount);
+        this.actionType = ActionType.CARD_MANIPULATION;
+    }
     public UsePeroroGoodsAction(AbstractRelic specificRelic, int add) {
         this.amount = 1;
         this.isRandom = false;
@@ -55,10 +73,23 @@ public class UsePeroroGoodsAction extends AbstractGameAction {
     }
     private boolean chooseGoods() {
         ArrayList<AbstractCard> optionChoices = new ArrayList();
-        for(AbstractRelic relic : AbstractDungeon.player.relics) {
-            if(relic instanceof PeroroGoodsRelic && (!(relic instanceof TwinPeroroRelic) || add == 0) && (relic instanceof TwinPeroroRelic || relic.counter > 0) && relic.grayscale == false) {
+        if(all) {
+            for (AbstractRelic relic : PeroroGoodsRelic.getRandomPeroroGoodList()) {
                 if(tier == AbstractRelic.RelicTier.SPECIAL || relic.tier == tier) {
-                    optionChoices.add(new PeroroGoods(relic, add, amount));
+                    if(AbstractDungeon.player.hasRelic(relic.relicId)) {
+                        optionChoices.add(new PeroroGoods(AbstractDungeon.player.getRelic(relic.relicId), add, amount, plus_use));
+                    } else {
+                        ((PeroroGoodsRelic)relic).setTemp();
+                        optionChoices.add(new PeroroGoods(relic, add, amount, plus_use));
+                    }
+                }
+            }
+        } else {
+            for(AbstractRelic relic : AbstractDungeon.player.relics) {
+                if(relic instanceof PeroroGoodsRelic && (!(relic instanceof TwinPeroroRelic) || add == 0) && (relic instanceof TwinPeroroRelic || relic.counter > 0) && relic.grayscale == false) {
+                    if(tier == AbstractRelic.RelicTier.SPECIAL || relic.tier == tier) {
+                        optionChoices.add(new PeroroGoods(relic, add, amount));
+                    }
                 }
             }
         }

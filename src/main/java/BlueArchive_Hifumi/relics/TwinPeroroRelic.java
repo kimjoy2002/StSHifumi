@@ -29,6 +29,10 @@ public class TwinPeroroRelic extends CustomRelic implements PeroroGoodsRelic {
     private static final Texture IMG = TextureLoader.getTexture(makeRelicPath("twin_peroro_relic.png"));
     private static final Texture OUTLINE = TextureLoader.getTexture(makeRelicOutlinePath("twin_peroro_relic.png"));
 
+    boolean isTemp = false;
+    public void setTemp(){
+        //cant
+    }
     public TwinPeroroRelic() {
         super(ID, IMG, OUTLINE, RelicTier.SHOP, LandingSound.CLINK);
     }

@@ -11,6 +11,27 @@ import com.megacrit.cardcrawl.vfx.cardManip.PurgeCardEffect;
 import java.util.ArrayList;
 
 public interface PeroroGoodsRelic {
+    public void setTemp();
+
+    public static ArrayList<AbstractRelic> getRandomPeroroGoodList() {
+
+        ArrayList<AbstractRelic> relics = new ArrayList<>();
+
+        relics.add(new CommonPeroroBlockRelic());
+        relics.add(new CommonPeroroMultiDamageRelic());
+        relics.add(new CommonPeroroDamageRelic());
+        relics.add(new UncommonPeroroDamageRelic());
+        relics.add(new UncommonPeroroBlockRelic());
+        relics.add(new UncommonPeroroSpecialRelic());
+        relics.add(new RarePeroroEnergyRelic());
+        relics.add(new RarePeroroBlockRelic());
+        relics.add(new RarePeroroDamageRelic());
+
+        return relics;
+    }
+
+
+
     public static AbstractRelic getRandomPeroroGoods(AbstractRelic.RelicTier tier) {
 
         ArrayList<AbstractRelic> relics = new ArrayList<>();

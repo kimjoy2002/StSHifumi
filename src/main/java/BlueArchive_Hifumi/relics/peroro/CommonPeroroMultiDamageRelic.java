@@ -1,6 +1,7 @@
 package BlueArchive_Hifumi.relics.peroro;
 
 import BlueArchive_Hifumi.DefaultMod;
+import BlueArchive_Hifumi.effects.LostRelicEffect;
 import BlueArchive_Hifumi.util.TextureLoader;
 import basemod.abstracts.CustomRelic;
 import com.badlogic.gdx.graphics.Texture;
@@ -26,6 +27,8 @@ public class CommonPeroroMultiDamageRelic extends CustomRelic implements PeroroG
     private static final Texture OUTLINE = TextureLoader.getTexture(makeRelicOutlinePath("common_peroro_multi_damage_relic.png"));
 
 
+    boolean isTemp = false;
+    public void setTemp(){isTemp = true;}
     public CommonPeroroMultiDamageRelic() {
         super(ID, IMG, OUTLINE, RelicTier.COMMON, LandingSound.SOLID);
         setCounter(1);
@@ -59,6 +62,9 @@ public class CommonPeroroMultiDamageRelic extends CustomRelic implements PeroroG
         grayscale = false;
         setCounter(counter+temp_count);
         temp_count = 0;
+        if(isTemp) {
+            AbstractDungeon.effectList.add(new LostRelicEffect(relicId));
+        }
     }
 
     public void use() {
