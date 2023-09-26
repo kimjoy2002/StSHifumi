@@ -399,8 +399,8 @@
   },
   "BlueArchive_Hifumi:ItazuraStraight": {
     "NAME": "Itazura☆Straight",
-    "DESCRIPTION": " bluearchive_hifumi:朋友 。 NL 选择抽牌堆中1张 bluearchive_hifumi:不可收藏 的牌将其放入弃牌堆。每回合开始时， bluearchive_hifumi:收藏 它。",
-    "UPGRADE_DESCRIPTION":  " bluearchive_hifumi:朋友 。 固有 。 NL 选择抽牌堆中1张 bluearchive_hifumi:不可收藏 的牌将其放入弃牌堆。每回合开始时， bluearchive_hifumi:收藏 它。"
+    "DESCRIPTION": " bluearchive_hifumi:朋友 。 NL 选择抽牌堆中1张 bluearchive_hifumi:可收藏 的牌将其放入弃牌堆。每回合开始时， bluearchive_hifumi:收藏 它。",
+    "UPGRADE_DESCRIPTION":  " bluearchive_hifumi:朋友 。 固有 。 NL 选择抽牌堆中1张 bluearchive_hifumi:可收藏 的牌将其放入弃牌堆。每回合开始时， bluearchive_hifumi:收藏 它。"
   },
   "BlueArchive_Hifumi:LuckyPunch": {
     "NAME": "幸运一击",

@@ -11,7 +11,8 @@
     "PROPER_NAME": "Collect",
     "NAMES": [
       "collect",
-      "collected"
+      "collected",
+      "collectible"
     ],
     "DESCRIPTION": "Take X cards from your discard pile into your hand, in the order in which they were discarded. When your discard pile is empty, draw cards equal to what is missing."
   },

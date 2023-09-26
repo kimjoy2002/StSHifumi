@@ -399,8 +399,8 @@
   },
   "BlueArchive_Hifumi:ItazuraStraight": {
     "NAME": "Itazura Straight",
-    "DESCRIPTION": "BlueArchive_Hifumi:Friend. NL Select 1 BlueArchive_Hifumi:Uncollectible card from draw pile and put it in discard pile. At the start of your turn, BlueArchive_Hifumi:Collect that card from discard pile.",
-    "UPGRADE_DESCRIPTION":  "BlueArchive_Hifumi:Friend. Innate. NL Select 1 BlueArchive_Hifumi:Uncollectible card from draw pile and put it in discard pile. At the start of your turn, BlueArchive_Hifumi:Collect that card from discard pile."
+    "DESCRIPTION": "BlueArchive_Hifumi:Friend. NL Select 1 BlueArchive_Hifumi:Collectible card from draw pile and put it in discard pile. At the start of your turn, BlueArchive_Hifumi:Collect that card from discard pile.",
+    "UPGRADE_DESCRIPTION":  "BlueArchive_Hifumi:Friend. Innate. NL Select 1 BlueArchive_Hifumi:Collectible card from draw pile and put it in discard pile. At the start of your turn, BlueArchive_Hifumi:Collect that card from discard pile."
   },
   "BlueArchive_Hifumi:LuckyPunch": {
     "NAME": "Lucky Punch",
